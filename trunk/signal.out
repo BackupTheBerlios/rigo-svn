@@ -1,0 +1,32 @@
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_save1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_delete1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_quit1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_odt1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_cut1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_about1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_open1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_paste1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_word_doc1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_latex1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_new1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_save_as1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_rtf1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_copy1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_pdf1_activate'.
+
+(rigo:17364): libglade-WARNING **: could not find signal handler 'on_xml1_activate'.

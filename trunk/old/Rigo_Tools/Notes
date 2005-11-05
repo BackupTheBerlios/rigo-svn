@@ -1,0 +1,4 @@
+8/6/2005
+	the constructor for Secton and Notbooks cannot have any
+	arguments.  Otherwise the resize funstions do not work correctly.
+	Look into rewritting using lists of pointers to each object.
