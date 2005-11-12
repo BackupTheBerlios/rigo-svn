@@ -4,6 +4,7 @@
 
 
 using namespace std;
+typedef string xmlDoc;
 //template <vector noteV>;
 //template <vector topicV>;
 
@@ -81,7 +82,7 @@ class Topic {
 		}
 		
 		string getNote(int index){
-			return noteV.at(index).getQuote();
+			return noteV.at(index);
 			
 		}
 		
@@ -92,12 +93,16 @@ class Topic {
 	
 class Source {
 	public:
-		Source(){
+		Source(aTitle){
+			title = aTitle;
 			topicV.reserve(5);
 		}
 		
 		string toString(){
-			string tempString;
+			/**grabs the titles of all the Topics contained in its
+			* Vector.
+			*/
+			string tempString = null;
 			for(unsigned int i=0; i < topicV.size(); i++){
 				tempString += topicV.at(i).getTitle()+", ";
 			}
@@ -145,8 +150,50 @@ class Source {
 	};
 	
 
-
-/*	
+class NoteBook{
+	public:
+		NoteBook(aTitle){
+			title = aTitle;
+			sourceV.reserve(5);
+		}
+		
+		void addSource(Source aSource){
+			sourceV.push_back(aSource);
+		}
+		
+		xmlDoc writeToXml(){
+			/**calls get"Item" on each element recursivly, starting at Source 0
+			* grabs Topic 0, then all Notes within it, then Topic 1 and all Notes within it...
+			*/
+			
+			xmlDoc tempDoc = "<title>"+title+"</title>";
+			
+			string tempString = null;
+			Source tempSource = new Source("null");
+			Topic  tempTopic  = new Topic("null");
+			
+			for(unsigned int i=0; i < sourceV.size(); i++){
+				//Get Source Title 0
+				tempDoc += "<SourceTitle>"+sourceV.at(i).getTitle()+"</SourceTitle>";
+				//Get Topic 0
+				tempDoc += "<TopicTitle>"+sourceV.at(i).getTopic(i).getTitle()+"</TopicTitle>";
+				for(unsigned int j=0; j < sourceV.at(i).getTopic(i).topicV.size(); j++){
+					tempDoc += "<NoteTitle>"+sourceV.at(i).getTopic(i).getNote(j).getTitle()+"</NoteTitle>";
+					tempDoc += "<NoteQuote>"+sourceV.at(i).getTopic(i).getNote(j).getQuote()+"</NoteQuote>";
+				}
+			
+			}
+			return tempDoc;
+		}
+			
+			
+	private:
+		vector<Source> sourceV;
+		string title;
+	
+	
+	};
+	
 int sourceTest(){
 	Source myBook;
 	Note myQuote("My Note Title", "My Quote");
@@ -178,4 +225,4 @@ int sourceTest(){
 	cout << "My Topic Test: " << mySection.toString() << endl;
 	return 0;
 }
-*/
+
