@@ -155,6 +155,10 @@ class NoteBook{
 		NoteBook(aTitle){
 			title = aTitle;
 			sourceV.reserve(5);
+			dirtyFlag = 0;
+			autosaveTime = 0;
+			defaultStyle = "MLA";
+			
 		}
 		
 		void addSource(Source aSource){
@@ -190,7 +194,10 @@ class NoteBook{
 	private:
 		vector<Source> sourceV;
 		string title;
-	
+	protected:
+		bool dirtyFlag;
+		int autosaveTime;
+		string defaultStyle;
 	
 	};
 	
