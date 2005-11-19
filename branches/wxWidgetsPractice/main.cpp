@@ -88,11 +88,9 @@ MyFrame::MyFrame(const wxString& title)
 	
 	//The "About item should be in the help menu
 	wxMenu *helpMenu = new wxMenu;
-	helpMenu->Append(wxID_ABOUT, wxT("&About...\tF1"),
-								wxT("Show about dialog"));
+	helpMenu->Append(wxID_ABOUT, wxT("&About...\tF1"), wxT("Show about dialog"));
 	
-	fileMenu->Append(wxID_EXIT, wxT("E&xit\tAlt-X"),
-								wxT("Quit this Program"));
+	fileMenu->Append(wxID_EXIT, wxT("E&xit\tAlt-X"), wxT("Quit this Program"));
 	
 	//Now append the freshly created menu to the menu bar...
 	wxMenuBar *menuBar = new wxMenuBar();
