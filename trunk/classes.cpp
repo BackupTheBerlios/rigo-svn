@@ -3,6 +3,8 @@
 #include <vector>
 
 
+
+
 using namespace std;
 typedef string xmlDoc;
 //template <vector noteV>;
@@ -23,6 +25,12 @@ class Note {
 			title = newtitle;
 			quote = newquote;
 		}
+		
+		xmlDoc writeToXml(){
+			xmlDoc tempDoc = "<NoteTitle>"+title+"</NoteTitle>";
+			tempDoc += "<NoteQuote>"+quote+"</NoteQuote>";
+			return tempDoc;
+		}
 			
 	private:
 		string title;
@@ -36,9 +44,14 @@ class Topic {
 			noteV.reserve(10);
 		}
 		
-		/*~Topic(){
-			noteV.~vector<Note>();
-		}*/
+		xmlDoc writeToXml(){
+			xmlDoc tempDoc = "<TopicTitle>"+title+"</TopicTitle>";
+			for(unsigned int i = 0; i < noteV.size(); i++){
+			/** i is the index of the vector*/
+				tempDoc += getNote(i).writeToXml();
+			}
+			return tempDoc;
+		}
 		
 		string toString(){
 			string tempString;
@@ -81,7 +94,7 @@ class Topic {
 			return title;
 		}
 		
-		string getNote(int index){
+		Note getNote(int index){
 			return noteV.at(index);
 			
 		}
@@ -93,16 +106,25 @@ class Topic {
 	
 class Source {
 	public:
-		Source(aTitle){
+		Source(string aTitle){
 			title = aTitle;
 			topicV.reserve(5);
+		}
+		
+		xmlDoc writeToXml(){
+			xmlDoc tempDoc = "<SourceTitle>"+title+"</SourceTitle>";
+			for(unsigned int i = 0; i < topicV.size(); i++){
+			/** i is the index of the vector*/
+				tempDoc += getTopic(i).writeToXml();
+			}
+			return tempDoc;
 		}
 		
 		string toString(){
 			/**grabs the titles of all the Topics contained in its
 			* Vector.
 			*/
-			string tempString = null;
+			string tempString = NULL;
 			for(unsigned int i=0; i < topicV.size(); i++){
 				tempString += topicV.at(i).getTitle()+", ";
 			}
@@ -116,7 +138,7 @@ class Source {
 		bool rmTopicByTitle(string aTitle){
 			/** attempts to search to a given Title and
 			* if found deletes the Topic from the vector
-			*
+			*c
 			* Return 0 for success
 		 	* Return 1 for Fail
 			*/
@@ -152,7 +174,7 @@ class Source {
 
 class NoteBook{
 	public:
-		NoteBook(aTitle){
+		NoteBook(string aTitle){
 			title = aTitle;
 			sourceV.reserve(5);
 			dirtyFlag = 0;
@@ -166,30 +188,18 @@ class NoteBook{
 		}
 		
 		xmlDoc writeToXml(){
-			/**calls get"Item" on each element recursivly, starting at Source 0
-			* grabs Topic 0, then all Notes within it, then Topic 1 and all Notes within it...
-			*/
-			
-			xmlDoc tempDoc = "<title>"+title+"</title>";
-			
-			string tempString = null;
-			Source tempSource = new Source("null");
-			Topic  tempTopic  = new Topic("null");
-			
-			for(unsigned int i=0; i < sourceV.size(); i++){
-				//Get Source Title 0
-				tempDoc += "<SourceTitle>"+sourceV.at(i).getTitle()+"</SourceTitle>";
-				//Get Topic 0
-				tempDoc += "<TopicTitle>"+sourceV.at(i).getTopic(i).getTitle()+"</TopicTitle>";
-				for(unsigned int j=0; j < sourceV.at(i).getTopic(i).topicV.size(); j++){
-					tempDoc += "<NoteTitle>"+sourceV.at(i).getTopic(i).getNote(j).getTitle()+"</NoteTitle>";
-					tempDoc += "<NoteQuote>"+sourceV.at(i).getTopic(i).getNote(j).getQuote()+"</NoteQuote>";
-				}
-			
+			xmlDoc tempDoc = "<NoteBook>";
+			for(unsigned int i = 0; i < sourceV.size(); i++){
+			/** i is the index of the vector*/
+				tempDoc += getSource(i).writeToXml();
 			}
+			tempDoc += "</NoteBook>";
 			return tempDoc;
 		}
 			
+		Source getSource(int index){
+			return sourceV.at(index);
+		}
 			
 	private:
 		vector<Source> sourceV;
@@ -201,35 +211,9 @@ class NoteBook{
 	
 	};
 	
-int sourceTest(){
-	Source myBook;
-	Note myQuote("My Note Title", "My Quote");
-	Note my2Quote("My Note2", "My Quote2");
-	Note my3Quote("My Note3", "My Quote3");
-	Topic mySection("My Topic Title");
-	Topic my2Section("My Topic 2");
-	Topic my3Section("My Topic 3");
+int main(){
 	
-	Test Section
-	//Note Tester
-	cout << "My Note's Quote is: " << myQuote.getQuote() << endl;
-	cout << "My Note's Title is: " << myQuote.getTitle() << endl;
-	cout << "End of Note Test section" << endl << endl;
-	//Source Tester
-	mySection.addNote(myQuote);
-	my2Section.addNote(my2Quote);
-	my3Section.addNote(my3Quote);
 	
-	cout << "My Topic Test: " << mySection.toString() << endl;
 	
-	myBook.addTopic(mySection);
-	myBook.addTopic(my2Section);
-	myBook.addTopic(my3Section);
-	cout << "My Source contains: " << myBook.toString() << endl;
-	
-	cout << mySection.rmNoteByTitle("My Note Title") << endl;
-	//cout << "Pause" << endl;
-	cout << "My Topic Test: " << mySection.toString() << endl;
 	return 0;
-}
-
+	}

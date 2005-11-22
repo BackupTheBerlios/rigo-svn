@@ -6,18 +6,21 @@ BASEDIR = ./
  # set up compiler and options
 CXX = g++
 CXXFLAGS = -O -g -Wall -ggdb
-GTKFLAGS = -O -Wall `pkg-config --cflags --libs libglade-2.0` -rdynamic -ggdb
+GTKFLAGS = -O -Wall -ggdb
 
 OBJS = classes.o main.o
 
 rigo: ${OBJS}
-	${CXX} -o rigo ${GTKFLAGS} ${OBJS} 
+	${CXX} -o rigo ${CXXFLAGS} ${OBJS} 
+	
+classes: classes.cpp
+	${CXX} -o classes ${CXXFLAGS} classes.cpp 
 	
 classes.o: classes.cpp
-	${CXX} ${CFLAGS} -c classes.cpp
+	${CXX} ${CXXFLAGS} -c classes.cpp
 
 main.o: main.cpp
-	${CXX} ${GTKFLAGS} -c main.cpp
+	${CXX} -c main.cpp
 
 clean:
 	rm -f *.o core classes rigo 
