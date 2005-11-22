@@ -1,1 +1,1 @@
-class Latex extends FileWriter
+class Latex : FileWriter
