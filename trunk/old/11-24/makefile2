@@ -11,7 +11,7 @@ GTKFLAGS = -O -Wall -ggdb
 OBJS = classes.o main.o
 
 rigo: ${OBJS}
-	${CXX} -o rigo ${CXXFLAGS} ${OBJS} 
+	${CXX} -o rigo.out ${CXXFLAGS} ${OBJS} 
 	
 classes: classes.cpp
 	${CXX} -o classes ${CXXFLAGS} classes.cpp 
@@ -23,5 +23,5 @@ main.o: main.cpp
 	${CXX} -c main.cpp
 
 clean:
-	rm -f *.o core classes rigo 
+	rm -f *.o core classes rigo.out 
  

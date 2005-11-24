@@ -1,17 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE KDevPrjSession>
 <KDevPrjSession>
- <DocsAndViews NumberOfDocuments="1" >
+ <DocsAndViews NumberOfDocuments="6" >
   <Doc0 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/rigo.cpp" >
-   <View0 line="35" Type="Source" />
+   <View0 line="0" Type="Source" />
   </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/note.cpp" >
+   <View0 line="6" Type="Source" />
+  </Doc1>
+  <Doc2 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/notebook.h" >
+   <View0 line="0" Type="Source" />
+  </Doc2>
+  <Doc3 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/toolbox.cpp" >
+   <View0 line="81" Type="Source" />
+  </Doc3>
+  <Doc4 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/note.h" >
+   <View0 line="33" Type="Source" />
+  </Doc4>
+  <Doc5 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/source.cpp" >
+   <View0 line="25" Type="Source" />
+  </Doc5>
  </DocsAndViews>
  <pluginList>
   <kdevdebugger>
    <breakpointList/>
   </kdevdebugger>
   <kdevbookmarks>
-   <bookmarks/>
+   <bookmarks>
+    <bookmark url="/home/siafu86/Rigo_Project/trunk/rigo/src/note.h" >
+     <mark line="22" />
+    </bookmark>
+   </bookmarks>
   </kdevbookmarks>
   <kdevvalgrind>
    <executable path="" params="" />
