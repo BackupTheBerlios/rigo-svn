@@ -19,20 +19,44 @@
  ***************************************************************************/
 #ifndef STDTOOLBOX_H
 #define STDTOOLBOX_H
+#include <iostream>
+#include <string>
+#include <fstream>
+//#include <gzip>
+#include "note.h"
+#include "source.h"
+#include "topic.h"
+#include "notebook.h"
+
 
 namespace std {
-
+//to be redefined later
+typedef string Document;
+//End redefinition
 /**
 @author Siafu86
 */
-class toolbox{
+class Toolbox{
 public:
-    toolbox();
+    Toolbox();
+	
+	~Toolbox();
+	/*
+	void save(Notebook myBook, string filename);
+	
+	fstream open(string filename);
+	
+	void writeOutline(string filetype, int style);
+	
+	void Recover();
+	
+	void import(Notebook aNotebook);
+	
+	void import(Document aPaper);
+	
+	void writeCompilation(string filetype, int style);
 
-    ~toolbox();
-
+*/
 };
-
 }
-
 #endif

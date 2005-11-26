@@ -19,18 +19,42 @@
  ***************************************************************************/
 #ifndef STDTOPIC_H
 #define STDTOPIC_H
+#include "note.h"
+#include <string>
+#include <iostream>
+#include <vector>
+
+
 
 namespace std {
+
+typedef string xmlDoc;
 
 /**
 @author Siafu86
 */
 class Topic{
 public:
-    Topic();
 
     ~Topic();
 
+	Topic(string aTitle);
+		
+	xmlDoc writeToXml();
+		
+	string toString();
+		
+	void addNote(Note aNote);
+		
+	bool rmNoteByTitle(string aTitle);
+		
+	string getTitle();
+	
+	Note getNote(int index);
+		
+private:
+	string title;
+	vector<Note> noteV;
 };
 
 }

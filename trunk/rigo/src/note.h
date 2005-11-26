@@ -19,10 +19,13 @@
  ***************************************************************************/
 #ifndef STDNOTE_H
 #define STDNOTE_H
-typedef string xmlDoc
+#include <string>
+#include <iostream>
+
+
 namespace std
 {
-
+typedef string xmlDoc;
   /**
   @author Siafu86
   */
@@ -46,7 +49,7 @@ namespace std
     string quote;
 
 
-  };
+ };
 
 }
 

@@ -19,34 +19,36 @@
  ***************************************************************************/
 #include "note.h"
 
-namespace std {
-
-Note::Note(string newtitle, string newquote){
-			//Note = new Note;
-			title = newtitle;
-			quote = newquote;
-		}
-
-
-Note::~Note()
+namespace std
 {
-}
 
-Note::getTitle()
-{
-	return title;
-}
-		
-Note::getQuote()
-{
-	return quote;
-}
-		
+  Note::Note(string newtitle, string newquote)
+  {
+    //Note = new Note;
+    title = newtitle;
+    quote = newquote;
+  }
 
-		
-Note::writeToXml(){
-			xmlDoc tempDoc = "<NoteTitle>"+title+"</NoteTitle>";
-			tempDoc += "<NoteQuote>"+quote+"</NoteQuote>";
-			return tempDoc;
-		}
-}	
+
+  Note::~Note()
+  {}
+
+  string Note::getTitle()
+  {
+    return title;
+  }
+
+  string Note::getQuote()
+  {
+    return quote;
+  }
+
+
+
+  Note::writeToXml()
+  {
+    xmlDoc tempDoc = "<NoteTitle>"+title+"</NoteTitle>";
+    tempDoc += "<NoteQuote>"+quote+"</NoteQuote>";
+    return tempDoc;
+  }
+}

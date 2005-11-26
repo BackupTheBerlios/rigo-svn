@@ -19,16 +19,47 @@
  ***************************************************************************/
 #include "toolbox.h"
 
+
+
 namespace std {
 
-toolbox::toolbox()
-{
-}
-
-
-toolbox::~toolbox()
-{
-}
-
-
+	Toolbox::Toolbox()
+	{/**Check the recent documents list.
+			Prompt User to start a new Project if 
+			none found */
+	}
+	
+	
+	Toolbox::~Toolbox()
+	{
+	}
+	/*
+	void Toolbox::save(Notebook myBook, string filename){
+		
+	
+	}
+	
+	file Toolbox::open(string filename){
+		
+	}
+	
+	void Toolbox::writeOutline(string filetype, int style){
+		
+	}
+	
+	void Toolbox::Recover(){
+		
+	}
+	
+	void Toolbox::import(Notebook aNotebook){
+		
+	}
+	
+	void Toolbox::import(Document aPaper){
+		
+	}
+	
+	void Toolbox::writeCompilation(string filetype, int style){
+		
+	}*/
 }

@@ -19,32 +19,37 @@
  ***************************************************************************/
 #ifndef STDNOTE_H
 #define STDNOTE_H
-typedef string xmlDoc
-namespace std {
-
-/**
-@author Siafu86
-*/
-class Note{
-public:
-	Note();
-
-	~Note();
-
-	string getTitle();
-		
-	string getQuote();
-		
-	Note(string newtitle, string newquote);
-		
-	xmlDoc writeToXml();
-			
-private:
-	string title;
-	string quote;
+#include <string>
+#include <iostream>
 
 
-};
+namespace std
+{
+//typedef string xmlDoc;
+  /**
+  @author Siafu86
+  */
+  class Note
+  {
+  public:
+    Note();
+
+    ~Note();
+
+    string getTitle();
+
+    string getQuote();
+
+    Note(string newtitle, string newquote);
+
+    xmlDoc writeToXml();
+
+  private:
+    string title;
+    string quote;
+
+
+ };
 
 }
 

@@ -50,7 +50,8 @@ CONFIG_CLEAN_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)
 PROGRAMS = $(bin_PROGRAMS)
-am_rigo_OBJECTS = rigo.$(OBJEXT)
+am_rigo_OBJECTS = rigo.$(OBJEXT) note.$(OBJEXT) topic.$(OBJEXT) \
+	source.$(OBJEXT) notebook.$(OBJEXT) toolbox.$(OBJEXT)
 rigo_OBJECTS = $(am_rigo_OBJECTS)
 rigo_LDADD = $(LDADD)
 DEFAULT_INCLUDES = -I. -I$(srcdir)
@@ -169,10 +170,10 @@ sysconfdir = ${prefix}/etc
 target_alias = 
 
 # these are the headers for your project
-noinst_HEADERS = rigo.h
+noinst_HEADERS = rigo.h note.h topic.h source.h notebook.h toolbox.h
 
 # the application source, library search path, and link libraries
-rigo_SOURCES = rigo.cpp
+rigo_SOURCES = rigo.cpp note.cpp topic.cpp source.cpp notebook.cpp toolbox.cpp
 rigo_LDFLAGS = $(WX_LIBS) 
 all: all-am
 
@@ -245,7 +246,12 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
+include ./$(DEPDIR)/note.Po
+include ./$(DEPDIR)/notebook.Po
 include ./$(DEPDIR)/rigo.Po
+include ./$(DEPDIR)/source.Po
+include ./$(DEPDIR)/toolbox.Po
+include ./$(DEPDIR)/topic.Po
 
 .cpp.o:
 	if $(CXXCOMPILE) -MT $@ -MD -MP -MF "$(DEPDIR)/$*.Tpo" -c -o $@ $<; \

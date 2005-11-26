@@ -33,19 +33,19 @@ namespace std
   Note::~Note()
   {}
 
-  Note::getTitle()
+  string Note::getTitle()
   {
     return title;
   }
 
-  Note::getQuote()
+  string Note::getQuote()
   {
     return quote;
   }
 
 
 
-  Note::writeToXml()
+  xmlDoc Note::writeToXml()
   {
     xmlDoc tempDoc = "<NoteTitle>"+title+"</NoteTitle>";
     tempDoc += "<NoteQuote>"+quote+"</NoteQuote>";

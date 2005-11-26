@@ -46,8 +46,9 @@ RigoFrame::OnQuit( wxCommandEvent& WXUNUSED( event ) )
 void 
 RigoFrame::OnAbout( wxCommandEvent& WXUNUSED( event ) )
 {
+	SetStatusText( wxT("The Open Research Suite"));
 	wxMessageBox( wxT( "Rigo: Research Information Gathering Optimizer" ),
 			wxT( "Rigo" ), wxOK | wxICON_INFORMATION, this );
-	SetStatusText( wxT("The Open Research Suite"));
+	
 }
 

@@ -21,14 +21,67 @@
 
 namespace std {
 
-Source::Source()
-{
-}
+	Source::Source(string aTitle){
+			title = aTitle;
+			topicV.reserve(5);
+		}
 
 
-Source::~Source()
-{
-}
+	Source::~Source()
+	{
+	}
 
-
-}
+	xmlDoc Source::writeToXml(){
+			xmlDoc tempDoc = "<SourceTitle>"+title+"</SourceTitle>";
+			for(unsigned int i = 0; i < topicV.size(); i++){
+			/** i is the index of the vector*/
+				tempDoc += getTopic(i).writeToXml();
+			}
+			return tempDoc;
+		}
+		
+	string Source::toString(){
+			/**grabs the titles of all the Topics contained in its
+			* Vector.
+			*/
+			string tempString = NULL;
+			for(unsigned int i=0; i < topicV.size(); i++){
+				tempString += topicV.at(i).getTitle()+", ";
+			}
+			return tempString;
+		}
+		
+	void Source::addTopic(Topic aTopic){
+			topicV.push_back(aTopic);
+		}
+	
+	bool Source::rmTopicByTitle(string aTitle){
+			/** attempts to search to a given Title and
+			* if found deletes the Topic from the vector
+			*c
+			* Return 0 for success
+		 	* Return 1 for Fail
+			*/
+			vector<Topic>::iterator vIter;
+			string tempTitle;
+			for(vIter=topicV.begin(); vIter < topicV.end(); ++vIter){
+				
+				tempTitle = vIter->getTitle();
+				
+				if (tempTitle == aTitle){
+					topicV.erase(vIter);
+					return 0;
+				}
+			}
+			return 1;
+		}
+	
+	Topic Source::getTopic(int index){
+			return topicV.at(index);
+			
+		}
+		
+	string Source::getTitle(){
+			return title;
+		}
+	};

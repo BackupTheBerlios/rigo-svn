@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2005 by Siafu86   *
- *   siafu86@rigo.berlios.de   *
+ *   Copyright (C) 2005 by Siafu86                                         *
+ *   siafu86@rigo.berlios.de                                               *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -21,26 +21,17 @@
 
 namespace std {
 
-Source::Source()
-{
-}
-
-
-Source::~Source()
-{
-}
-
-
-}
-
-class Source {
-	public:
-		Source(string aTitle){
+	Source::Source(string aTitle){
 			title = aTitle;
 			topicV.reserve(5);
 		}
-		
-		xmlDoc writeToXml(){
+
+
+	Source::~Source()
+	{
+	}
+
+	xmlDoc Source::writeToXml(){
 			xmlDoc tempDoc = "<SourceTitle>"+title+"</SourceTitle>";
 			for(unsigned int i = 0; i < topicV.size(); i++){
 			/** i is the index of the vector*/
@@ -49,7 +40,7 @@ class Source {
 			return tempDoc;
 		}
 		
-		string toString(){
+	string Source::toString(){
 			/**grabs the titles of all the Topics contained in its
 			* Vector.
 			*/
@@ -60,11 +51,11 @@ class Source {
 			return tempString;
 		}
 		
-		void addTopic(Topic aTopic){
+	void Source::addTopic(Topic aTopic){
 			topicV.push_back(aTopic);
 		}
 	
-		bool rmTopicByTitle(string aTitle){
+	bool Source::rmTopicByTitle(string aTitle){
 			/** attempts to search to a given Title and
 			* if found deletes the Topic from the vector
 			*c
@@ -85,17 +76,12 @@ class Source {
 			return 1;
 		}
 	
-		Topic getTopic(int index){
+	Topic Source::getTopic(int index){
 			return topicV.at(index);
 			
 		}
 		
-		string getTitle(){
+	string Source::getTitle(){
 			return title;
 		}
-		
-	private:
-		vector<Topic> topicV;
-		string title;
-		
 	};

@@ -21,21 +21,13 @@
 
 namespace std {
 
-Notebook::Notebook()
-{
-}
 
 
 Notebook::~Notebook()
 {
 }
 
-
-}
-
-class NoteBook{
-	public:
-		NoteBook(string aTitle){
+Notebook::Notebook(string aTitle){
 			title = aTitle;
 			sourceV.reserve(5);
 			dirtyFlag = 0;
@@ -44,30 +36,22 @@ class NoteBook{
 			
 		}
 		
-		void addSource(Source aSource){
-			sourceV.push_back(aSource);
-		}
-		
-		xmlDoc writeToXml(){
-			xmlDoc tempDoc = "<NoteBook>";
-			for(unsigned int i = 0; i < sourceV.size(); i++){
-			/** i is the index of the vector*/
-				tempDoc += getSource(i).writeToXml();
-			}
-			tempDoc += "</NoteBook>";
-			return tempDoc;
-		}
-			
-		Source getSource(int index){
-			return sourceV.at(index);
-		}
-			
-	private:
-		vector<Source> sourceV;
-		string title;
-	protected:
-		bool dirtyFlag;
-		int autosaveTime;
-		string defaultStyle;
+void Notebook::addSource(Source aSource){
+	sourceV.push_back(aSource);
+}
+
+xmlDoc Notebook::writeToXml(){
+	xmlDoc tempDoc = "<NoteBook>";
+	for(unsigned int i = 0; i < sourceV.size(); i++){
+	/** i is the index of the vector*/
+		tempDoc += getSource(i).writeToXml();
+	}
+	tempDoc += "</NoteBook>";
+	return tempDoc;
+}
 	
-	};
+Source Notebook::getSource(int index){
+	return sourceV.at(index);
+}
+			
+}

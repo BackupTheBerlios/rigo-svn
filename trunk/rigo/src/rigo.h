@@ -1,6 +1,9 @@
 
 #ifndef _RIGO_H_
 #define _RIGO_H_
+#include <string>
+
+
 
 /**
  * @short Application Main Window

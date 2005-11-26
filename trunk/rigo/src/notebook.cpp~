@@ -21,14 +21,37 @@
 
 namespace std {
 
-Notebook::Notebook()
-{
-}
 
 
 Notebook::~Notebook()
 {
 }
 
-
+Notebook::Notebook(string aTitle){
+			title = aTitle;
+			sourceV.reserve(5);
+			dirtyFlag = 0;
+			autosaveTime = 0;
+			defaultStyle = "MLA";
+			
+		}
+		
+void Notebook::addSource(Source aSource){
+	sourceV.push_back(aSource);
 }
+
+xmlDoc Notebook::writeToXml(){
+	xmlDoc tempDoc = "<NoteBook>";
+	for(unsigned int i = 0; i < sourceV.size(); i++){
+	/** i is the index of the vector*/
+		tempDoc += getSource(i).writeToXml();
+	}
+	tempDoc += "</NoteBook>";
+	return tempDoc;
+}
+	
+Source Notebook::getSource(int index){
+	return sourceV.at(index);
+}
+			
+			

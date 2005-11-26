@@ -19,18 +19,40 @@
  ***************************************************************************/
 #ifndef STDNOTEBOOK_H
 #define STDNOTEBOOK_H
+#include "note.h"
+#include "topic.h"
+#include "source.h"
+#include <string>
+#include <vector>
+#include <iostream>
+
+
+
 
 namespace std {
-
+typedef string xmlDoc;
 /**
 @author Siafu86
 */
 class Notebook{
 public:
-    Notebook();
-
-    ~Notebook();
-
+		Notebook(string aTitle);
+		
+		~Notebook();
+		
+		void addSource(Source aSource);
+		
+		xmlDoc writeToXml();
+			
+		Source getSource(int index);
+	private:
+		vector<Source> sourceV;
+		string title;
+	protected:
+		bool dirtyFlag;
+		int autosaveTime;
+		string defaultStyle;
+	
 };
 
 }
