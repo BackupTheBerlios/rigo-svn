@@ -53,5 +53,12 @@ xmlDoc Notebook::writeToXml(){
 Source Notebook::getSource(int index){
 	return sourceV.at(index);
 }
+/**
+Test method to test the full Notebook Class
+@author Siafu86
+@todo research if cxxtest or Cppunit testing would be a better solution.
+*/
+void Notebook::testNoteBook(){
+}
 			
 }

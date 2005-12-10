@@ -50,6 +50,8 @@ public:
 	Topic getTopic(int index);
 		
 	string getTitle();
+	
+	//void testSource();
 		
 private:
 	vector<Topic> topicV;

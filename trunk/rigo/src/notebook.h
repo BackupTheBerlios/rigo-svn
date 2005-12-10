@@ -43,6 +43,8 @@ public:
 		void addSource(Source aSource);
 		
 		xmlDoc writeToXml();
+		
+		void testNotebook();
 			
 		Source getSource(int index);
 	private:

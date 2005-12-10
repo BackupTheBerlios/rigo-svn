@@ -53,5 +53,9 @@ xmlDoc Notebook::writeToXml(){
 Source Notebook::getSource(int index){
 	return sourceV.at(index);
 }
+/**
+Test method to test the full Notebook Class
+void Notebook::testNoteBook(){
+}
 			
-			
+}
