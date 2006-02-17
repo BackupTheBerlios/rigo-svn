@@ -9,6 +9,7 @@ noinst_HEADERS = rigo.h note.h topic.h source.h notebook.h toolbox.h
 bin_PROGRAMS = rigo
 
 # the application source, library search path, and link libraries
-rigo_SOURCES = rigo.cpp note.cpp topic.cpp source.cpp notebook.cpp toolbox.cpp
+rigo_SOURCES = rigo.cpp note.cpp topic.cpp source.cpp notebook.cpp toolbox.cpp \
+	classTesters.cpp
 rigo_LDFLAGS = $(WX_LIBS) 
 

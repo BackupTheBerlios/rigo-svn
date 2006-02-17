@@ -64,8 +64,8 @@ Topic::~Topic()
 		/** attempts to search to a given Title and
 		* if found deletes the Note from the vector
 		*
-		* Return 0 for success
-		* Return 1 for Fail
+		* @returns 0 for success
+		* @returns 1 for Fail
 		*/
 		vector<Note>::iterator vIter;
 		string tempTitle;

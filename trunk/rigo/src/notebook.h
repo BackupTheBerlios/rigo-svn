@@ -44,8 +44,6 @@ public:
 		
 		xmlDoc writeToXml();
 		
-		void testNotebook();
-			
 		Source getSource(int index);
 	private:
 		vector<Source> sourceV;

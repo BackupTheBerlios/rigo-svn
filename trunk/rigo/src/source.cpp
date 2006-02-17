@@ -59,8 +59,8 @@ namespace std {
 			/** attempts to search to a given Title and
 			* if found deletes the Topic from the vector
 			*c
-			* Return 0 for success
-		 	* Return 1 for Fail
+			* @returns 0 for success
+		 	* @returns 1 for Fail
 			*/
 			vector<Topic>::iterator vIter;
 			string tempTitle;

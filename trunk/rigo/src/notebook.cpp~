@@ -55,7 +55,29 @@ Source Notebook::getSource(int index){
 }
 /**
 Test method to test the full Notebook Class
-void Notebook::testNoteBook(){
+@author Siafu86
+@todo research if cxxtest or Cppunit testing would be a better solution.
+*/
+void Notebook::testNotebook(){
+	//Create 4 new sources
+	Source* book1 = new Source("Book1");
+	Source* book2 = new Source("Book2");
+	Source* book3 = new Source("Book3");
+	Source* book4 = new Source("Book4");
+	
+	//Create a new notebook
+	
+	//Create 4 new notes
+	
+	//Add the notes to the sources
+	
+	//Add the notes the the notebook
+	
+	//write it to XML
+	
+	//save to a file
+	
+	//quit
 }
 			
 }
