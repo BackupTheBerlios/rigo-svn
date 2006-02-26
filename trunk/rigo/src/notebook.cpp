@@ -41,12 +41,13 @@ void Notebook::addSource(Source aSource){
 }
 
 xmlDoc Notebook::writeToXml(){
-	xmlDoc tempDoc = "<NoteBook>";
+	xmlDoc tempDoc = "<?xml version =\"1.0\"?>\n";
+	tempDoc += "<NoteBook>\n";
 	for(unsigned int i = 0; i < sourceV.size(); i++){
 	/** i is the index of the vector*/
 		tempDoc += getSource(i).writeToXml();
 	}
-	tempDoc += "</NoteBook>";
+	tempDoc += "</NoteBook>\n";
 	return tempDoc;
 }
 	

@@ -36,7 +36,7 @@ Topic::~Topic()
 		}	
 		
 	xmlDoc Topic::writeToXml(){
-		xmlDoc tempDoc = "<TopicTitle>"+title+"</TopicTitle>";
+		xmlDoc tempDoc = "\t\t<TopicTitle>"+title+"</TopicTitle>\n";
 		for(unsigned int i = 0; i < noteV.size(); i++){
 		/** i is the index of the vector*/
 			tempDoc += getNote(i).writeToXml();

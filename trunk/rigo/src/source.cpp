@@ -32,7 +32,7 @@ namespace std {
 	}
 
 	xmlDoc Source::writeToXml(){
-			xmlDoc tempDoc = "<SourceTitle>"+title+"</SourceTitle>";
+			xmlDoc tempDoc = "\t<SourceTitle>"+title+"</SourceTitle>\n";
 			for(unsigned int i = 0; i < topicV.size(); i++){
 			/** i is the index of the vector*/
 				tempDoc += getTopic(i).writeToXml();

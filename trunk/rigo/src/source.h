@@ -19,6 +19,7 @@
 ***************************************************************************/
 #ifndef STDSOURCE_H
 #define STDSOURCE_H
+#define NEWLINE \n
 #include <string>
 #include <vector>
 #include <iostream>

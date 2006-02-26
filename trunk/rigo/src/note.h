@@ -19,6 +19,7 @@
  ***************************************************************************/
 #ifndef STDNOTE_H
 #define STDNOTE_H
+#define NEWLINE \n
 #include <string>
 #include <iostream>
 

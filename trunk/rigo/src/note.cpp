@@ -47,8 +47,8 @@ namespace std
 
   xmlDoc Note::writeToXml()
   {
-    xmlDoc tempDoc = "<NoteTitle>"+title+"</NoteTitle>";
-    tempDoc += "<NoteQuote>"+quote+"</NoteQuote>";
+    xmlDoc tempDoc = "\t\t\t<NoteTitle>"+title+"</NoteTitle>\n";
+    tempDoc += "\t\t\t\t<NoteQuote>"+quote+"</NoteQuote>\n";
     return tempDoc;
   }
 }

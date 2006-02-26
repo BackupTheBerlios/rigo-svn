@@ -19,6 +19,7 @@
  ***************************************************************************/
 #ifndef STDTOPIC_H
 #define STDTOPIC_H
+#define NEWLINE \n
 #include "note.h"
 #include <string>
 #include <iostream>

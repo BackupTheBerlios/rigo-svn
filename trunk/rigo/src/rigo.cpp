@@ -51,4 +51,3 @@ RigoFrame::OnAbout( wxCommandEvent& WXUNUSED( event ) )
 			wxT( "Rigo" ), wxOK | wxICON_INFORMATION, this );
 	
 }
-

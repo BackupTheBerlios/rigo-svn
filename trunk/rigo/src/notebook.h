@@ -19,6 +19,7 @@
  ***************************************************************************/
 #ifndef STDNOTEBOOK_H
 #define STDNOTEBOOK_H
+#define NEWLINE \n
 #include "note.h"
 #include "topic.h"
 #include "source.h"
