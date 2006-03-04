@@ -1,5 +1,6 @@
 # these are the headers for your project
-noinst_HEADERS = note.h topic.h source.h notebook.h toolbox.h rigo.h
+noinst_HEADERS = note.h topic.h source.h notebook.h toolbox.h rigo.h \
+	filewriter.h
 
 #########################################################################
 # APPLICATION SECTION
@@ -10,6 +11,6 @@ bin_PROGRAMS = rigo
 
 # the application source, library search path, and link libraries
 rigo_SOURCES = note.cpp topic.cpp source.cpp notebook.cpp toolbox.cpp \
-	classTesters.cpp rigo.cpp
+		classTesters.cpp rigo.cpp filewriter.cpp
 rigo_LDFLAGS = $(WX_LIBS) 
 

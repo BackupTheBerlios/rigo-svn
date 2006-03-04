@@ -1,46 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE KDevPrjSession>
 <KDevPrjSession>
- <DocsAndViews NumberOfDocuments="13" >
-  <Doc0 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/rigo.cpp" >
-   <View0 line="39" Type="Source" />
+ <DocsAndViews NumberOfDocuments="2" >
+  <Doc0 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/filewriter.cpp" >
+   <View0 Type="Source" />
   </Doc0>
-  <Doc1 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/note.cpp" >
-   <View0 Type="Source" />
+  <Doc1 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/filewriter.h" >
+   <View0 line="29" Type="Source" />
   </Doc1>
-  <Doc2 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/notebook.h" >
-   <View0 line="0" Type="Source" />
-  </Doc2>
-  <Doc3 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/toolbox.cpp" >
-   <View0 line="0" Type="Source" />
-  </Doc3>
-  <Doc4 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/note.h" >
-   <View0 Type="Source" />
-  </Doc4>
-  <Doc5 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/source.cpp" >
-   <View0 line="24" Type="Source" />
-  </Doc5>
-  <Doc6 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/source.h" >
-   <View0 Type="Source" />
-  </Doc6>
-  <Doc7 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/Makefile.in" >
-   <View0 Type="Source" />
-  </Doc7>
-  <Doc8 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/rigo.h" >
-   <View0 line="33" Type="Source" />
-  </Doc8>
-  <Doc9 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/topic.h" >
-   <View0 line="23" Type="Source" />
-  </Doc9>
-  <Doc10 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/topic.cpp" >
-   <View0 line="0" Type="Source" />
-  </Doc10>
-  <Doc11 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/notebook.cpp" >
-   <View0 line="0" Type="Source" />
-  </Doc11>
-  <Doc12 NumberOfViews="1" URL="file:///home/siafu86/Rigo_Project/trunk/rigo/src/toolbox.h" >
-   <View0 line="47" Type="Source" />
-  </Doc12>
  </DocsAndViews>
  <pluginList>
   <kdevdebugger>
@@ -50,6 +17,9 @@
    <bookmarks>
     <bookmark url="/home/siafu86/Rigo_Project/trunk/rigo/src/rigo.cpp" >
      <mark line="4" />
+    </bookmark>
+    <bookmark url="/home/siafu86/Rigo_Project/trunk/rigo/src/filewriter.h" >
+     <mark line="26" />
     </bookmark>
    </bookmarks>
   </kdevbookmarks>
