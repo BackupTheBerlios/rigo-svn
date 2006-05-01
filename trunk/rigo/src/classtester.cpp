@@ -101,5 +101,6 @@ int main(){
 	cout << LinuxTest->writeToXml();
 	
 	cout << "Finished" << endl;
+	
 	return 0;
 }

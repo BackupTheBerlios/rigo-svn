@@ -17,19 +17,20 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
-
+#include "filewriter.h"
+namespace std{
 FileWriter::FileWriter(string aFilename)
 {
 	filename = aFilename;
 }
 
-FileWriter::write(string writeThis)
+/*FileWriter::writeFile(string writeThis)
 {
 	ofstream myfile;
 	myfile.open(filename);
 	myfile << writeThis;
 	myfile.close();
-}
+}*/ 
 
 HTML::writeFile(xmlDoc writeMe)
 {
@@ -46,4 +47,4 @@ HTML::writeFile(xmlDoc writeMe)
 	
 	
 }
-
+}

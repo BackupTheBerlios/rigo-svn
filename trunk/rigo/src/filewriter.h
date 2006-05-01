@@ -18,13 +18,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 #ifndef FILEWRITER_H
-#def FILEWRITER_H
-#include "filewriter.cpp"
+#define FILEWRITER_H
 #include <string>
 #include <fstream>
-typedef string xmlDoc;
 
-using namespace std{
+
+
+namespace std{
+	typedef string xmlDoc;
 class FileWriter{
 	public:
 		FileWriter(string aFilename);
