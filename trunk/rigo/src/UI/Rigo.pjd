@@ -1,0 +1,1204 @@
+<?xml version="1.0" ?>
+
+<path name="Header">
+	<value name="FileVersion" type="string">1.0</value>
+	<value name="AppName" type="string">dialogblocks</value>
+	<value name="VendorName" type="string"></value>
+	<value name="FileType" type="string">Project File</value>
+</path>
+<path name="projtree">
+	<value name="name_counter" type="Integer">0</value>
+	<value name="html_path" type="string"></value>
+	<value name="title" type="string"></value>
+	<value name="author" type="string"></value>
+	<value name="description" type="string"></value>
+	<value name="doc_count" type="Integer">43</value>
+	<value name="xrc_filename" type="string">RigoBaseUI</value>
+	<value name="convert_images_to_xpm" type="bool">FALSE</value>
+	<value name="inline_images" type="bool">FALSE</value>
+	<value name="generate_cpp_for_xrc" type="bool">FALSE</value>
+	<value name="use_help_text_for_tooltips" type="bool">TRUE</value>
+	<value name="translate_strings" type="bool">TRUE</value>
+	<value name="extract_strings" type="bool">FALSE</value>
+	<value name="user_name" type="string">Jeremy W</value>
+	<value name="copyright_string" type="string">Copyright (C) 2006</value>
+	<value name="resource_prefix" type="string"></value>
+	<value name="use_two_step_construction" type="bool">FALSE</value>
+	<value name="current_platform" type="string">__WXMSW__</value>
+	<value name="target_wx_version" type="string">2.6.3</value>
+	<value name="cpp_header_comment" type="string">/////////////////////////////////////////////////////////////////////////////
+// Name:        %HEADER-FILENAME%
+// Purpose:     
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     GPL v2
+/////////////////////////////////////////////////////////////////////////////
+
+</value>
+	<value name="cpp_implementation_comment" type="string">/////////////////////////////////////////////////////////////////////////////
+// Name:        %SOURCE-FILENAME%
+// Purpose:     
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     
+/////////////////////////////////////////////////////////////////////////////
+
+</value>
+	<value name="cpp_function_comment" type="string">/*!
+ * %BODY%
+ */
+
+</value>
+	<value name="cpp_symbols_file_comment" type="string">/////////////////////////////////////////////////////////////////////////////
+// Name:        %SYMBOLS-FILENAME%
+// Purpose:     Symbols file
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     
+/////////////////////////////////////////////////////////////////////////////
+
+</value>
+	<value name="resource_file_header" type="string">app_resources.h</value>
+	<value name="resource_file_implementation" type="string">app_resources.cpp</value>
+	<value name="resource_class_name" type="string">AppResources</value>
+	<value name="app_file_header" type="string">app.h</value>
+	<value name="app_file_implementation" type="string">app.cpp</value>
+	<value name="app_class_name" type="string">Application</value>
+	<value name="generate_app_class" type="bool">FALSE</value>
+	<value name="external_symbol_filenames" type="string"></value>
+	<value name="configuration" type="string">VC++ Release</value>
+	<path name="ID000000">
+		<value name="title" type="string"></value>
+		<value name="id" type="Integer">36661688</value>
+		<value name="type" type="string">data-document</value>
+		<value name="filename" type="string"></value>
+		<value name="icon-name" type="string"></value>
+		<value name="is-transient" type="Integer">0</value>
+		<value name="owns-file" type="Integer">1</value>
+		<value name="title-mode" type="Integer">0</value>
+		<value name="parent" type="Integer">0</value>
+		<value name="locked" type="Integer">0</value>
+		<path name="ID000001">
+			<value name="title" type="string">Configurations</value>
+			<value name="id" type="Integer">14939192</value>
+			<value name="type" type="string">config-data-document</value>
+			<value name="filename" type="string"></value>
+			<value name="icon-name" type="string"></value>
+			<value name="is-transient" type="Integer">0</value>
+			<value name="owns-file" type="Integer">1</value>
+			<value name="title-mode" type="Integer">0</value>
+			<value name="parent" type="Integer">36661688</value>
+			<value name="locked" type="Integer">0</value>
+			<value name="template-name" type="string"></value>
+			<value name="dirty" type="bool">TRUE</value>
+			<value name="Compiler name" type="string"></value>
+			<value name="Build mode" type="string">Debug</value>
+			<value name="Unicode mode" type="string">ANSI</value>
+			<value name="Shared mode" type="string">Static</value>
+			<value name="Modularity" type="string">Modular</value>
+			<value name="GUI mode" type="string">GUI</value>
+			<value name="Toolkit" type="string">wxMSW</value>
+			<value name="Runtime linking" type="string">Dynamic</value>
+			<value name="Use exceptions" type="string">Yes</value>
+			<value name="Use ODBC" type="string">No</value>
+			<value name="Use OpenGL" type="string">No</value>
+			<value name="wxWidgets version" type="string">%WXVERSION%</value>
+			<value name="Executable name" type="string">%EXECUTABLE%</value>
+			<value name="Program arguments" type="string"></value>
+			<value name="Working path" type="string">%AUTO%</value>
+			<value name="Output path" type="string">%AUTO%</value>
+			<value name="Objects path" type="string">%AUTO%</value>
+			<value name="Compiler location" type="string">%AUTO%</value>
+			<value name="wxWidgets location" type="string">%AUTO%</value>
+			<value name="C++ command" type="string">%AUTO%</value>
+			<value name="Resource compiler" type="string">%AUTO%</value>
+			<value name="Make command" type="string">%AUTO%</value>
+			<value name="Project makefile" type="string">%AUTO%</value>
+			<value name="wxWidgets makefile" type="string">%AUTO%</value>
+			<value name="Compiler bin path" type="string">%AUTO%</value>
+			<value name="Compiler include path" type="string">%AUTO%</value>
+			<value name="Compiler lib path" type="string">%AUTO%</value>
+			<value name="Preprocessor flags" type="string">%AUTO%</value>
+			<value name="Optimizations" type="string">%AUTO%</value>
+			<value name="Warnings" type="string">%AUTO%</value>
+			<value name="Debug flags" type="string">%AUTO%</value>
+			<value name="Libraries" type="string">%AUTO%</value>
+			<value name="Linker flags" type="string">%AUTO%</value>
+			<value name="Include path" type="string">%AUTO%</value>
+			<value name="Library path" type="string">%AUTO%</value>
+			<value name="Resource flags" type="string">%AUTO%</value>
+			<value name="Resource path" type="string">%AUTO%</value>
+			<value name="wxWidgets build path" type="string">%AUTO%</value>
+			<value name="wxWidgets build command" type="string">%AUTO%</value>
+			<value name="wxWidgets clean command" type="string">%AUTO%</value>
+			<path name="ID000002">
+				<value name="title" type="string">VC++ Debug</value>
+				<value name="id" type="Integer">15123784</value>
+				<value name="type" type="string">vc-config-data-document</value>
+				<value name="filename" type="string"></value>
+				<value name="icon-name" type="string"></value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">14939192</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="template-name" type="string">VC++</value>
+				<value name="dirty" type="bool">FALSE</value>
+				<value name="Compiler name" type="string">VC++</value>
+				<value name="Build mode" type="string">Debug</value>
+				<value name="Unicode mode" type="string">ANSI</value>
+				<value name="Shared mode" type="string">Static</value>
+				<value name="Modularity" type="string">Modular</value>
+				<value name="GUI mode" type="string">GUI</value>
+				<value name="Toolkit" type="string">wxMSW</value>
+				<value name="Runtime linking" type="string">Dynamic</value>
+				<value name="Use exceptions" type="string">Yes</value>
+				<value name="Use ODBC" type="string">No</value>
+				<value name="Use OpenGL" type="string">No</value>
+				<value name="wxWidgets version" type="string">%WXVERSION%</value>
+				<value name="Executable name" type="string">%EXECUTABLE%</value>
+				<value name="Program arguments" type="string"></value>
+				<value name="Working path" type="string">%AUTO%</value>
+				<value name="Output path" type="string">%AUTO%</value>
+				<value name="Objects path" type="string">%AUTO%</value>
+				<value name="Compiler location" type="string">%AUTO%</value>
+				<value name="wxWidgets location" type="string">%AUTO%</value>
+				<value name="C++ command" type="string">%AUTO%</value>
+				<value name="Resource compiler" type="string">%AUTO%</value>
+				<value name="Make command" type="string">%AUTO%</value>
+				<value name="Project makefile" type="string">%AUTO%</value>
+				<value name="wxWidgets makefile" type="string">%AUTO%</value>
+				<value name="Compiler bin path" type="string">%AUTO%</value>
+				<value name="Compiler include path" type="string">%AUTO%</value>
+				<value name="Compiler lib path" type="string">%AUTO%</value>
+				<value name="Preprocessor flags" type="string">%AUTO%</value>
+				<value name="Optimizations" type="string">%AUTO%</value>
+				<value name="Warnings" type="string">%AUTO%</value>
+				<value name="Debug flags" type="string">%AUTO%</value>
+				<value name="Libraries" type="string">%AUTO%</value>
+				<value name="Linker flags" type="string">%AUTO%</value>
+				<value name="Include path" type="string">%AUTO%</value>
+				<value name="Library path" type="string">%AUTO%</value>
+				<value name="Resource flags" type="string">%AUTO%</value>
+				<value name="Resource path" type="string">%AUTO%</value>
+				<value name="wxWidgets build path" type="string">%AUTO%</value>
+				<value name="wxWidgets build command" type="string">%AUTO%</value>
+				<value name="wxWidgets clean command" type="string">%AUTO%</value>
+			</path>
+			<path name="ID000003">
+				<value name="title" type="string">VC++ Release</value>
+				<value name="id" type="Integer">36918376</value>
+				<value name="type" type="string">vc-config-data-document</value>
+				<value name="filename" type="string"></value>
+				<value name="icon-name" type="string"></value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">14939192</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="template-name" type="string">VC++</value>
+				<value name="dirty" type="bool">FALSE</value>
+				<value name="Compiler name" type="string">VC++</value>
+				<value name="Build mode" type="string">Release</value>
+				<value name="Unicode mode" type="string">ANSI</value>
+				<value name="Shared mode" type="string">Static</value>
+				<value name="Modularity" type="string">Modular</value>
+				<value name="GUI mode" type="string">GUI</value>
+				<value name="Toolkit" type="string">wxMSW</value>
+				<value name="Runtime linking" type="string">Dynamic</value>
+				<value name="Use exceptions" type="string">Yes</value>
+				<value name="Use ODBC" type="string">No</value>
+				<value name="Use OpenGL" type="string">No</value>
+				<value name="wxWidgets version" type="string">%WXVERSION%</value>
+				<value name="Executable name" type="string">%EXECUTABLE%</value>
+				<value name="Program arguments" type="string"></value>
+				<value name="Working path" type="string">%AUTO%</value>
+				<value name="Output path" type="string">%AUTO%</value>
+				<value name="Objects path" type="string">%AUTO%</value>
+				<value name="Compiler location" type="string">%AUTO%</value>
+				<value name="wxWidgets location" type="string">%AUTO%</value>
+				<value name="C++ command" type="string">%AUTO%</value>
+				<value name="Resource compiler" type="string">%AUTO%</value>
+				<value name="Make command" type="string">%AUTO%</value>
+				<value name="Project makefile" type="string">%AUTO%</value>
+				<value name="wxWidgets makefile" type="string">%AUTO%</value>
+				<value name="Compiler bin path" type="string">%AUTO%</value>
+				<value name="Compiler include path" type="string">%AUTO%</value>
+				<value name="Compiler lib path" type="string">%AUTO%</value>
+				<value name="Preprocessor flags" type="string">%AUTO%</value>
+				<value name="Optimizations" type="string">%AUTO%</value>
+				<value name="Warnings" type="string">%AUTO%</value>
+				<value name="Debug flags" type="string">%AUTO%</value>
+				<value name="Libraries" type="string">%AUTO%</value>
+				<value name="Linker flags" type="string">%AUTO%</value>
+				<value name="Include path" type="string">%AUTO%</value>
+				<value name="Library path" type="string">%AUTO%</value>
+				<value name="Resource flags" type="string">%AUTO%</value>
+				<value name="Resource path" type="string">%AUTO%</value>
+				<value name="wxWidgets build path" type="string">%AUTO%</value>
+				<value name="wxWidgets build command" type="string">%AUTO%</value>
+				<value name="wxWidgets clean command" type="string">%AUTO%</value>
+			</path>
+		</path>
+	</path>
+	<path name="ID000004">
+		<value name="title" type="string">Projects</value>
+		<value name="id" type="Integer">15339816</value>
+		<value name="type" type="string">root-document</value>
+		<value name="filename" type="string"></value>
+		<value name="icon-name" type="string">project</value>
+		<value name="is-transient" type="Integer">1</value>
+		<value name="owns-file" type="Integer">1</value>
+		<value name="title-mode" type="Integer">0</value>
+		<value name="parent" type="Integer">0</value>
+		<value name="locked" type="Integer">0</value>
+		<path name="ID000005">
+			<value name="title" type="string">Windows</value>
+			<value name="id" type="Integer">46361264</value>
+			<value name="type" type="string">html-document</value>
+			<value name="filename" type="string"></value>
+			<value name="icon-name" type="string">dialogsfolder</value>
+			<value name="is-transient" type="Integer">1</value>
+			<value name="owns-file" type="Integer">1</value>
+			<value name="title-mode" type="Integer">0</value>
+			<value name="parent" type="Integer">15339816</value>
+			<value name="locked" type="Integer">1</value>
+			<path name="ID000006">
+				<value name="title" type="string">RigoApp</value>
+				<value name="id" type="Integer">44516080</value>
+				<value name="type" type="string">dialog-document</value>
+				<value name="filename" type="string"></value>
+				<value name="icon-name" type="string">app</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">46361264</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">16/6/2006</value>
+				<value name="proxy-type" type="string">wbAppProxy</value>
+				<value name="base-id" type="Integer">10000</value>
+				<value name="use-id-prefix" type="bool">FALSE</value>
+				<value name="id-prefix" type="string"></value>
+				<value name="proxy-Class" type="string">RigoApp</value>
+				<value name="proxy-Base class" type="string">wxApp</value>
+				<value name="proxy-Implementation filename" type="string">rigo.cpp</value>
+				<value name="proxy-Header filename" type="string">rigo.h</value>
+				<value name="proxy-Event sources" type="string"></value>
+				<value name="proxy-Main window" type="string">Rigo</value>
+			</path>
+			<path name="ID000007">
+				<value name="title" type="string">wxFrame: Rigo</value>
+				<value name="id" type="Integer">44467360</value>
+				<value name="type" type="string">dialog-document</value>
+				<value name="filename" type="string"></value>
+				<value name="icon-name" type="string">frame</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">46361264</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">16/6/2006</value>
+				<value name="proxy-type" type="string">wbFrameProxy</value>
+				<value name="base-id" type="Integer">10000</value>
+				<value name="use-id-prefix" type="bool">FALSE</value>
+				<value name="id-prefix" type="string"></value>
+				<value name="proxy-Id name" type="string">Rigo</value>
+				<value name="proxy-Id value" type="Integer">10000</value>
+				<value name="proxy-Class" type="string">rigoMainFrame</value>
+				<value name="proxy-Base class" type="string">wxFrame</value>
+				<value name="proxy-Implementation filename" type="string">mainFrame.cpp</value>
+				<value name="proxy-Header filename" type="string">mainFrame.h</value>
+				<value name="proxy-XRC filename" type="string"></value>
+				<value name="proxy-Title" type="string">.::R.I.G.O::.</value>
+				<value name="proxy-Centre" type="bool">TRUE</value>
+				<value name="proxy-Icon" type="string">database_gear.png</value>
+				<value name="proxy-Dialog units" type="bool">FALSE</value>
+				<value name="proxy-Help text" type="string"></value>
+				<value name="proxy-Tooltip text" type="string"></value>
+				<value name="proxy-Background colour" type="string"></value>
+				<value name="proxy-Foreground colour" type="string"></value>
+				<value name="proxy-Font" type="string"></value>
+				<value name="proxy-Hidden" type="bool">FALSE</value>
+				<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+				<value name="proxy-wxDEFAULT_FRAME_STYLE" type="bool">FALSE</value>
+				<value name="proxy-wxCAPTION" type="bool">TRUE</value>
+				<value name="proxy-wxRESIZE_BORDER" type="bool">TRUE</value>
+				<value name="proxy-wxSYSTEM_MENU" type="bool">TRUE</value>
+				<value name="proxy-wxMINIMIZE" type="bool">FALSE</value>
+				<value name="proxy-wxMAXIMIZE" type="bool">TRUE</value>
+				<value name="proxy-wxMINIMIZE_BOX" type="bool">TRUE</value>
+				<value name="proxy-wxMAXIMIZE_BOX" type="bool">TRUE</value>
+				<value name="proxy-wxCLOSE_BOX" type="bool">TRUE</value>
+				<value name="proxy-wxFRAME_TOOL_WINDOW" type="bool">FALSE</value>
+				<value name="proxy-wxFRAME_FLOAT_ON_PARENT" type="bool">FALSE</value>
+				<value name="proxy-wxFRAME_NO_TASKBAR" type="bool">FALSE</value>
+				<value name="proxy-wxSTAY_ON_TOP" type="bool">FALSE</value>
+				<value name="proxy-wxNO_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxSIMPLE_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxDOUBLE_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxSUNKEN_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxRAISED_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxSTATIC_BORDER" type="bool">FALSE</value>
+				<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+				<value name="proxy-wxCLIP_CHILDREN " type="bool">FALSE</value>
+				<value name="proxy-wxTAB_TRAVERSAL" type="bool">FALSE</value>
+				<value name="proxy-wxWS_EX_VALIDATE_RECURSIVELY" type="bool">FALSE</value>
+				<value name="proxy-wxWS_EX_BLOCK_EVENTS" type="bool">FALSE</value>
+				<value name="proxy-wxWS_EX_TRANSIENT" type="bool">FALSE</value>
+				<value name="proxy-Custom styles" type="string"></value>
+				<value name="proxy-wxFRAME_EX_CONTEXTHELP" type="bool">FALSE</value>
+				<value name="proxy-Fit to content" type="bool">TRUE</value>
+				<value name="proxy-X" type="Integer">-1</value>
+				<value name="proxy-Y" type="Integer">-1</value>
+				<value name="proxy-Width" type="Integer">800</value>
+				<value name="proxy-Height" type="Integer">600</value>
+				<value name="proxy-Event sources" type="string"></value>
+				<path name="ID000008">
+					<value name="title" type="string">wxMenuBar: ID_MENUBAR</value>
+					<value name="id" type="Integer">38016640</value>
+					<value name="type" type="string">dialog-control-document</value>
+					<value name="filename" type="string"></value>
+					<value name="icon-name" type="string">menubar</value>
+					<value name="is-transient" type="Integer">0</value>
+					<value name="owns-file" type="Integer">1</value>
+					<value name="title-mode" type="Integer">0</value>
+					<value name="parent" type="Integer">44467360</value>
+					<value name="locked" type="Integer">0</value>
+					<value name="created" type="string">16/6/2006</value>
+					<value name="proxy-type" type="string">wbMenuBarProxy</value>
+					<value name="proxy-Id name" type="string">ID_MENUBAR</value>
+					<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					<path name="ID000009">
+						<value name="title" type="string">File</value>
+						<value name="id" type="Integer">47797544</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menu</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">38016640</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">16/6/2006</value>
+						<value name="proxy-type" type="string">wbMenuProxy</value>
+						<value name="proxy-Label" type="string">File</value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						<path name="ID00000a">
+							<value name="title" type="string">New: New</value>
+							<value name="id" type="Integer">38543536</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">47797544</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">New</value>
+							<value name="proxy-Id value" type="Integer">10003</value>
+							<value name="proxy-Label" type="string">New</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string">page_attach.png</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+						<path name="ID00000b">
+							<value name="title" type="string">Save: Save</value>
+							<value name="id" type="Integer">38008752</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">47797544</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">Save</value>
+							<value name="proxy-Id value" type="Integer">10017</value>
+							<value name="proxy-Label" type="string">Save</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string">disk.png</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+						<path name="ID00000c">
+							<value name="title" type="string">Quit: Quit</value>
+							<value name="id" type="Integer">38598952</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">47797544</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">Quit</value>
+							<value name="proxy-Id value" type="Integer">10009</value>
+							<value name="proxy-Label" type="string">Quit</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string">door_in.png</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+					</path>
+					<path name="ID00000d">
+						<value name="title" type="string">Edit</value>
+						<value name="id" type="Integer">37983464</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menu</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">38016640</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">16/6/2006</value>
+						<value name="proxy-type" type="string">wbMenuProxy</value>
+						<value name="proxy-Label" type="string">&amp;Edit</value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						<path name="ID00000e">
+							<value name="title" type="string">Profile: Profile</value>
+							<value name="id" type="Integer">15187408</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">37983464</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">Profile</value>
+							<value name="proxy-Id value" type="Integer">10004</value>
+							<value name="proxy-Label" type="string">Profile</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string">user_edit.png</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+						<path name="ID00000f">
+							<value name="title" type="string">Export: Export</value>
+							<value name="id" type="Integer">15367008</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">37983464</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">Export</value>
+							<value name="proxy-Id value" type="Integer">10014</value>
+							<value name="proxy-Label" type="string">Export</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string">wrench_orange.png</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+						<path name="ID000010">
+							<value name="title" type="string">Item: ID_MENUITEM2</value>
+							<value name="id" type="Integer">37024688</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">37983464</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">ID_MENUITEM2</value>
+							<value name="proxy-Id value" type="Integer">10006</value>
+							<value name="proxy-Label" type="string">Item</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string"></value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+						<path name="ID000011">
+							<value name="title" type="string">Item: ID_MENUITEM3</value>
+							<value name="id" type="Integer">38602248</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">menuitem</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">37983464</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">16/6/2006</value>
+							<value name="proxy-type" type="string">wbMenuItemProxy</value>
+							<value name="proxy-Id name" type="string">ID_MENUITEM3</value>
+							<value name="proxy-Id value" type="Integer">10007</value>
+							<value name="proxy-Label" type="string">Item</value>
+							<value name="proxy-Kind" type="string">Normal</value>
+							<value name="proxy-Checked" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Bitmap" type="string"></value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						</path>
+					</path>
+					<path name="ID000012">
+						<value name="title" type="string">Tools</value>
+						<value name="id" type="Integer">15236112</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menu</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">38016640</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">16/6/2006</value>
+						<value name="proxy-type" type="string">wbMenuProxy</value>
+						<value name="proxy-Label" type="string">Tools</value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+				</path>
+				<path name="ID000013">
+					<value name="title" type="string">wxToolBar: ID_TOOLBAR</value>
+					<value name="id" type="Integer">15236344</value>
+					<value name="type" type="string">dialog-control-document</value>
+					<value name="filename" type="string"></value>
+					<value name="icon-name" type="string">toolbar</value>
+					<value name="is-transient" type="Integer">0</value>
+					<value name="owns-file" type="Integer">1</value>
+					<value name="title-mode" type="Integer">0</value>
+					<value name="parent" type="Integer">44467360</value>
+					<value name="locked" type="Integer">0</value>
+					<value name="created" type="string">17/6/2006</value>
+					<value name="proxy-type" type="string">wbToolBarProxy</value>
+					<value name="proxy-Id name" type="string">ID_TOOLBAR</value>
+					<value name="proxy-Id value" type="Integer">10001</value>
+					<value name="proxy-Class" type="string">wxToolBar</value>
+					<value name="proxy-Member variable name" type="string"></value>
+					<value name="proxy-Help text" type="string"></value>
+					<value name="proxy-Tooltip text" type="string"></value>
+					<value name="proxy-Background colour" type="string"></value>
+					<value name="proxy-Foreground colour" type="string"></value>
+					<value name="proxy-Font" type="string"></value>
+					<value name="proxy-Hidden" type="bool">FALSE</value>
+					<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					<value name="proxy-Data variable" type="string"></value>
+					<value name="proxy-Data validator" type="string"></value>
+					<value name="proxy-Bitmap width" type="Integer">16</value>
+					<value name="proxy-Bitmap height" type="Integer">16</value>
+					<value name="proxy-Margin width" type="Integer">5</value>
+					<value name="proxy-Margin height" type="Integer">1</value>
+					<value name="proxy-Tool packing" type="Integer">1</value>
+					<value name="proxy-Tool separation" type="Integer">5</value>
+					<value name="proxy-wxTB_FLAT" type="bool">TRUE</value>
+					<value name="proxy-wxTB_DOCKABLE" type="bool">FALSE</value>
+					<value name="proxy-wxTB_HORIZONTAL" type="bool">TRUE</value>
+					<value name="proxy-wxTB_VERTICAL" type="bool">FALSE</value>
+					<value name="proxy-wxTB_TEXT" type="bool">FALSE</value>
+					<value name="proxy-wxTB_NOICONS" type="bool">FALSE</value>
+					<value name="proxy-wxTB_NODIVIDER" type="bool">FALSE</value>
+					<value name="proxy-wxTB_NOALIGN" type="bool">FALSE</value>
+					<value name="proxy-wxTB_HORZ_LAYOUT" type="bool">FALSE</value>
+					<value name="proxy-wxNO_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSIMPLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxDOUBLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSUNKEN_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxRAISED_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSTATIC_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+					<value name="proxy-wxCLIP_CHILDREN " type="bool">FALSE</value>
+					<value name="proxy-Custom styles" type="string"></value>
+					<value name="proxy-X" type="Integer">-1</value>
+					<value name="proxy-Y" type="Integer">-1</value>
+					<value name="proxy-Width" type="Integer">-1</value>
+					<value name="proxy-Height" type="Integer">-1</value>
+					<value name="proxy-AlignH" type="string">Centre</value>
+					<value name="proxy-AlignV" type="string">Centre</value>
+					<value name="proxy-Stretch factor" type="Integer">0</value>
+					<value name="proxy-Border" type="Integer">5</value>
+					<value name="proxy-wxLEFT" type="bool">TRUE</value>
+					<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+					<value name="proxy-wxTOP" type="bool">TRUE</value>
+					<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+					<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+					<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-Custom arguments" type="string"></value>
+					<value name="proxy-Custom ctor arguments" type="string"></value>
+					<path name="ID000014">
+						<value name="title" type="string">Tool: open</value>
+						<value name="id" type="Integer">36903712</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menuitem</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbToolBarButtonProxy</value>
+						<value name="proxy-Id name" type="string">open</value>
+						<value name="proxy-Id value" type="Integer">10011</value>
+						<value name="proxy-Bitmap" type="string">folder_page_white.png</value>
+						<value name="proxy-Label" type="string"></value>
+						<value name="proxy-Kind" type="string">Normal</value>
+						<value name="proxy-Tooltip" type="string"></value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+					<path name="ID000015">
+						<value name="title" type="string">Tool: export</value>
+						<value name="id" type="Integer">37653976</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menuitem</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbToolBarButtonProxy</value>
+						<value name="proxy-Id name" type="string">export</value>
+						<value name="proxy-Id value" type="Integer">10014</value>
+						<value name="proxy-Bitmap" type="string">wrench_orange.png</value>
+						<value name="proxy-Label" type="string"></value>
+						<value name="proxy-Kind" type="string">Normal</value>
+						<value name="proxy-Tooltip" type="string"></value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+					<path name="ID000016">
+						<value name="title" type="string">Tool: print</value>
+						<value name="id" type="Integer">38560992</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menuitem</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbToolBarButtonProxy</value>
+						<value name="proxy-Id name" type="string">print</value>
+						<value name="proxy-Id value" type="Integer">10015</value>
+						<value name="proxy-Bitmap" type="string">printer.png</value>
+						<value name="proxy-Label" type="string"></value>
+						<value name="proxy-Kind" type="string">Normal</value>
+						<value name="proxy-Tooltip" type="string"></value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+					<path name="ID000017">
+						<value name="title" type="string">Tool: save</value>
+						<value name="id" type="Integer">15115496</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menuitem</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbToolBarButtonProxy</value>
+						<value name="proxy-Id name" type="string">save</value>
+						<value name="proxy-Id value" type="Integer">10017</value>
+						<value name="proxy-Bitmap" type="string">disk.png</value>
+						<value name="proxy-Label" type="string"></value>
+						<value name="proxy-Kind" type="string">Normal</value>
+						<value name="proxy-Tooltip" type="string"></value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+					<path name="ID000018">
+						<value name="title" type="string">Tool: writebiblo</value>
+						<value name="id" type="Integer">15066272</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">menuitem</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbToolBarButtonProxy</value>
+						<value name="proxy-Id name" type="string">writebiblo</value>
+						<value name="proxy-Id value" type="Integer">10016</value>
+						<value name="proxy-Bitmap" type="string">book_edit.png</value>
+						<value name="proxy-Label" type="string"></value>
+						<value name="proxy-Kind" type="string">Normal</value>
+						<value name="proxy-Tooltip" type="string"></value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					</path>
+					<path name="ID000019">
+						<value name="title" type="string">wxComboBox: ID_COMBOBOX</value>
+						<value name="id" type="Integer">38515672</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">combobox</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">15236344</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbComboBoxProxy</value>
+						<value name="event-handler-0" type="string">wxEVT_COMMAND_TEXT_UPDATED|OnComboboxUpdated</value>
+						<value name="event-handler-1" type="string">wxEVT_UPDATE_UI|OnComboboxUpdate</value>
+						<value name="proxy-Id name" type="string">ID_COMBOBOX</value>
+						<value name="proxy-Id value" type="Integer">10002</value>
+						<value name="proxy-Class" type="string">wxComboBox</value>
+						<value name="proxy-Member variable name" type="string"></value>
+						<value name="proxy-Strings" type="string">Source2</value>
+						<value name="proxy-Initial value" type="string">Source1</value>
+						<value name="proxy-Help text" type="string"></value>
+						<value name="proxy-Tooltip text" type="string"></value>
+						<value name="proxy-Background colour" type="string"></value>
+						<value name="proxy-Foreground colour" type="string"></value>
+						<value name="proxy-Font" type="string"></value>
+						<value name="proxy-Hidden" type="bool">FALSE</value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						<value name="proxy-Data variable" type="string"></value>
+						<value name="proxy-Data validator" type="string"></value>
+						<value name="proxy-wxCB_SIMPLE" type="bool">FALSE</value>
+						<value name="proxy-wxCB_DROPDOWN" type="bool">FALSE</value>
+						<value name="proxy-wxCB_READONLY" type="bool">TRUE</value>
+						<value name="proxy-wxCB_SORT" type="bool">FALSE</value>
+						<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+						<value name="proxy-Custom styles" type="string"></value>
+						<value name="proxy-X" type="Integer">-1</value>
+						<value name="proxy-Y" type="Integer">-1</value>
+						<value name="proxy-Width" type="Integer">-1</value>
+						<value name="proxy-Height" type="Integer">-1</value>
+						<value name="proxy-AlignH" type="string">Centre</value>
+						<value name="proxy-AlignV" type="string">Centre</value>
+						<value name="proxy-Stretch factor" type="Integer">0</value>
+						<value name="proxy-Border" type="Integer">5</value>
+						<value name="proxy-wxLEFT" type="bool">TRUE</value>
+						<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+						<value name="proxy-wxTOP" type="bool">TRUE</value>
+						<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+						<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+						<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+						<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+						<value name="proxy-Custom arguments" type="string"></value>
+						<value name="proxy-Custom ctor arguments" type="string"></value>
+					</path>
+				</path>
+				<path name="ID00001a">
+					<value name="title" type="string">wxPanel: ID_PANEL</value>
+					<value name="id" type="Integer">38456936</value>
+					<value name="type" type="string">dialog-control-document</value>
+					<value name="filename" type="string"></value>
+					<value name="icon-name" type="string">panel</value>
+					<value name="is-transient" type="Integer">0</value>
+					<value name="owns-file" type="Integer">1</value>
+					<value name="title-mode" type="Integer">0</value>
+					<value name="parent" type="Integer">44467360</value>
+					<value name="locked" type="Integer">0</value>
+					<value name="created" type="string">17/6/2006</value>
+					<value name="proxy-type" type="string">wbPanelProxy</value>
+					<value name="proxy-Id name" type="string">ID_PANEL</value>
+					<value name="proxy-Id value" type="Integer">10012</value>
+					<value name="proxy-Class" type="string">wxPanel</value>
+					<value name="proxy-Base class" type="string">wxPanel</value>
+					<value name="proxy-Member variable name" type="string"></value>
+					<value name="proxy-External implementation" type="bool">FALSE</value>
+					<value name="proxy-Help text" type="string"></value>
+					<value name="proxy-Tooltip text" type="string"></value>
+					<value name="proxy-Background colour" type="string"></value>
+					<value name="proxy-Foreground colour" type="string"></value>
+					<value name="proxy-Font" type="string"></value>
+					<value name="proxy-Hidden" type="bool">FALSE</value>
+					<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					<value name="proxy-wxNO_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSIMPLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxDOUBLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSUNKEN_BORDER" type="bool">TRUE</value>
+					<value name="proxy-wxRAISED_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSTATIC_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+					<value name="proxy-wxCLIP_CHILDREN " type="bool">FALSE</value>
+					<value name="proxy-wxHSCROLL" type="bool">FALSE</value>
+					<value name="proxy-wxVSCROLL" type="bool">FALSE</value>
+					<value name="proxy-wxTAB_TRAVERSAL" type="bool">TRUE</value>
+					<value name="proxy-wxWS_EX_VALIDATE_RECURSIVELY" type="bool">FALSE</value>
+					<value name="proxy-wxWS_EX_BLOCK_EVENTS" type="bool">FALSE</value>
+					<value name="proxy-Custom styles" type="string"></value>
+					<value name="proxy-Fit to content" type="bool">TRUE</value>
+					<value name="proxy-X" type="Integer">-1</value>
+					<value name="proxy-Y" type="Integer">-1</value>
+					<value name="proxy-Width" type="Integer">-1</value>
+					<value name="proxy-Height" type="Integer">-1</value>
+					<value name="proxy-AlignH" type="string">Centre</value>
+					<value name="proxy-AlignV" type="string">Centre</value>
+					<value name="proxy-Stretch factor" type="Integer">0</value>
+					<value name="proxy-Border" type="Integer">5</value>
+					<value name="proxy-wxLEFT" type="bool">TRUE</value>
+					<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+					<value name="proxy-wxTOP" type="bool">TRUE</value>
+					<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+					<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+					<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-Custom arguments" type="string"></value>
+					<value name="proxy-Custom ctor arguments" type="string"></value>
+					<value name="proxy-Event sources" type="string"></value>
+					<path name="ID00001b">
+						<value name="title" type="string">wxGridSizer</value>
+						<value name="id" type="Integer">38331512</value>
+						<value name="type" type="string">dialog-control-document</value>
+						<value name="filename" type="string"></value>
+						<value name="icon-name" type="string">sizer</value>
+						<value name="is-transient" type="Integer">0</value>
+						<value name="owns-file" type="Integer">1</value>
+						<value name="title-mode" type="Integer">0</value>
+						<value name="parent" type="Integer">38456936</value>
+						<value name="locked" type="Integer">0</value>
+						<value name="created" type="string">17/6/2006</value>
+						<value name="proxy-type" type="string">wbGridSizerProxy</value>
+						<value name="proxy-Columns" type="Integer">1</value>
+						<value name="proxy-Rows" type="Integer">1</value>
+						<value name="proxy-ColumnSpacing" type="Integer">0</value>
+						<value name="proxy-RowSpacing" type="Integer">0</value>
+						<value name="proxy-Member variable name" type="string"></value>
+						<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+						<value name="proxy-AlignH" type="string">Centre</value>
+						<value name="proxy-AlignV" type="string">Centre</value>
+						<value name="proxy-Stretch factor" type="Integer">50</value>
+						<value name="proxy-Border" type="Integer">5</value>
+						<value name="proxy-wxLEFT" type="bool">TRUE</value>
+						<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+						<value name="proxy-wxTOP" type="bool">TRUE</value>
+						<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+						<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+						<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+						<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+						<path name="ID00001c">
+							<value name="title" type="string">wxNotebook: ID_NOTEBOOK</value>
+							<value name="id" type="Integer">36678592</value>
+							<value name="type" type="string">dialog-control-document</value>
+							<value name="filename" type="string"></value>
+							<value name="icon-name" type="string">notebook</value>
+							<value name="is-transient" type="Integer">0</value>
+							<value name="owns-file" type="Integer">1</value>
+							<value name="title-mode" type="Integer">0</value>
+							<value name="parent" type="Integer">38331512</value>
+							<value name="locked" type="Integer">0</value>
+							<value name="created" type="string">17/6/2006</value>
+							<value name="proxy-type" type="string">wbNotebookProxy</value>
+							<value name="proxy-Id name" type="string">ID_NOTEBOOK</value>
+							<value name="proxy-Id value" type="Integer">10010</value>
+							<value name="proxy-Class" type="string">wxNotebook</value>
+							<value name="proxy-Member variable name" type="string"></value>
+							<value name="proxy-Notebook sizer" type="bool">FALSE</value>
+							<value name="proxy-Help text" type="string"></value>
+							<value name="proxy-Tooltip text" type="string"></value>
+							<value name="proxy-Background colour" type="string"></value>
+							<value name="proxy-Foreground colour" type="string"></value>
+							<value name="proxy-Font" type="string"></value>
+							<value name="proxy-Hidden" type="bool">FALSE</value>
+							<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+							<value name="proxy-Data variable" type="string"></value>
+							<value name="proxy-Data validator" type="string"></value>
+							<value name="proxy-wxNB_TOP" type="bool">TRUE</value>
+							<value name="proxy-wxNB_BOTTOM" type="bool">FALSE</value>
+							<value name="proxy-wxNB_LEFT" type="bool">FALSE</value>
+							<value name="proxy-wxNB_RIGHT" type="bool">FALSE</value>
+							<value name="proxy-wxNB_FIXEDWIDTH" type="bool">FALSE</value>
+							<value name="proxy-wxNB_MULTILINE" type="bool">FALSE</value>
+							<value name="proxy-wxNB_NOPAGETHEME" type="bool">FALSE</value>
+							<value name="proxy-wxNO_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxSIMPLE_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxDOUBLE_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxSUNKEN_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxRAISED_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxSTATIC_BORDER" type="bool">FALSE</value>
+							<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+							<value name="proxy-wxCLIP_CHILDREN " type="bool">FALSE</value>
+							<value name="proxy-wxWS_EX_VALIDATE_RECURSIVELY" type="bool">FALSE</value>
+							<value name="proxy-Custom styles" type="string"></value>
+							<value name="proxy-X" type="Integer">-1</value>
+							<value name="proxy-Y" type="Integer">-1</value>
+							<value name="proxy-Width" type="Integer">100</value>
+							<value name="proxy-Height" type="Integer">100</value>
+							<value name="proxy-AlignH" type="string">Expand</value>
+							<value name="proxy-AlignV" type="string">Expand</value>
+							<value name="proxy-Stretch factor" type="Integer">0</value>
+							<value name="proxy-Border" type="Integer">0</value>
+							<value name="proxy-wxLEFT" type="bool">TRUE</value>
+							<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+							<value name="proxy-wxTOP" type="bool">TRUE</value>
+							<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+							<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+							<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+							<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+							<value name="proxy-Custom arguments" type="string"></value>
+							<value name="proxy-Custom ctor arguments" type="string"></value>
+						</path>
+					</path>
+				</path>
+				<path name="ID00001d">
+					<value name="title" type="string">wxStatusBar: ID_STATUSBAR</value>
+					<value name="id" type="Integer">15207104</value>
+					<value name="type" type="string">dialog-control-document</value>
+					<value name="filename" type="string"></value>
+					<value name="icon-name" type="string">statusbar</value>
+					<value name="is-transient" type="Integer">0</value>
+					<value name="owns-file" type="Integer">1</value>
+					<value name="title-mode" type="Integer">0</value>
+					<value name="parent" type="Integer">44467360</value>
+					<value name="locked" type="Integer">0</value>
+					<value name="created" type="string">17/6/2006</value>
+					<value name="proxy-type" type="string">wbStatusBarProxy</value>
+					<value name="proxy-Id name" type="string">ID_STATUSBAR</value>
+					<value name="proxy-Id value" type="Integer">10013</value>
+					<value name="proxy-Class" type="string">wxStatusBar</value>
+					<value name="proxy-Member variable name" type="string"></value>
+					<value name="proxy-Help text" type="string"></value>
+					<value name="proxy-Tooltip text" type="string"></value>
+					<value name="proxy-Background colour" type="string"></value>
+					<value name="proxy-Foreground colour" type="string"></value>
+					<value name="proxy-Font" type="string"></value>
+					<value name="proxy-Hidden" type="bool">FALSE</value>
+					<value name="proxy-Platform" type="string">&lt;Any platform&gt;</value>
+					<value name="proxy-Field count" type="Integer">2</value>
+					<value name="proxy-Field text" type="string"></value>
+					<value name="proxy-Field widths" type="string"></value>
+					<value name="proxy-wxST_SIZEGRIP" type="bool">TRUE</value>
+					<value name="proxy-wxNO_BORDER" type="bool">TRUE</value>
+					<value name="proxy-wxSIMPLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxDOUBLE_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSUNKEN_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxRAISED_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxSTATIC_BORDER" type="bool">FALSE</value>
+					<value name="proxy-wxWANTS_CHARS" type="bool">FALSE</value>
+					<value name="proxy-wxCLIP_CHILDREN " type="bool">FALSE</value>
+					<value name="proxy-Custom styles" type="string"></value>
+					<value name="proxy-X" type="Integer">-1</value>
+					<value name="proxy-Y" type="Integer">-1</value>
+					<value name="proxy-Width" type="Integer">-1</value>
+					<value name="proxy-Height" type="Integer">-1</value>
+					<value name="proxy-AlignH" type="string">Centre</value>
+					<value name="proxy-AlignV" type="string">Centre</value>
+					<value name="proxy-Stretch factor" type="Integer">0</value>
+					<value name="proxy-Border" type="Integer">5</value>
+					<value name="proxy-wxLEFT" type="bool">TRUE</value>
+					<value name="proxy-wxRIGHT" type="bool">TRUE</value>
+					<value name="proxy-wxTOP" type="bool">TRUE</value>
+					<value name="proxy-wxBOTTOM" type="bool">TRUE</value>
+					<value name="proxy-wxSHAPED" type="bool">FALSE</value>
+					<value name="proxy-wxADJUST_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-wxFIXED_MINSIZE" type="bool">FALSE</value>
+					<value name="proxy-Custom arguments" type="string"></value>
+					<value name="proxy-Custom ctor arguments" type="string"></value>
+				</path>
+			</path>
+		</path>
+		<path name="ID00001e">
+			<value name="title" type="string">Sources</value>
+			<value name="id" type="Integer">37503640</value>
+			<value name="type" type="string">html-document</value>
+			<value name="filename" type="string"></value>
+			<value name="icon-name" type="string">sourcesfolder</value>
+			<value name="is-transient" type="Integer">1</value>
+			<value name="owns-file" type="Integer">1</value>
+			<value name="title-mode" type="Integer">0</value>
+			<value name="parent" type="Integer">15339816</value>
+			<value name="locked" type="Integer">1</value>
+			<path name="ID00001f">
+				<value name="title" type="string">Rigo.rc</value>
+				<value name="id" type="Integer">44122456</value>
+				<value name="type" type="string">source-editor-document</value>
+				<value name="filename" type="string">Rigo.rc</value>
+				<value name="icon-name" type="string">source-editor</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">0</value>
+				<value name="title-mode" type="Integer">1</value>
+				<value name="parent" type="Integer">37503640</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">16/6/2006</value>
+				<value name="language" type="string"></value>
+			</path>
+		</path>
+		<path name="ID000020">
+			<value name="title" type="string">Images</value>
+			<value name="id" type="Integer">36891176</value>
+			<value name="type" type="string">html-document</value>
+			<value name="filename" type="string"></value>
+			<value name="icon-name" type="string">bitmapsfolder</value>
+			<value name="is-transient" type="Integer">1</value>
+			<value name="owns-file" type="Integer">1</value>
+			<value name="title-mode" type="Integer">0</value>
+			<value name="parent" type="Integer">15339816</value>
+			<value name="locked" type="Integer">1</value>
+			<path name="ID000021">
+				<value name="title" type="string">folder_page_white.png</value>
+				<value name="id" type="Integer">14655112</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">folder_page_white.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000022">
+				<value name="title" type="string">disk.png</value>
+				<value name="id" type="Integer">44122248</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">disk.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000023">
+				<value name="title" type="string">disk_multiple.png</value>
+				<value name="id" type="Integer">44122104</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">disk_multiple.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000024">
+				<value name="title" type="string">door_in.png</value>
+				<value name="id" type="Integer">59933184</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">door_in.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000025">
+				<value name="title" type="string">wrench_orange.png</value>
+				<value name="id" type="Integer">59933328</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">wrench_orange.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000026">
+				<value name="title" type="string">book_edit.png</value>
+				<value name="id" type="Integer">60174384</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">book_edit.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000027">
+				<value name="title" type="string">printer.png</value>
+				<value name="id" type="Integer">60174528</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">printer.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000028">
+				<value name="title" type="string">user_edit.png</value>
+				<value name="id" type="Integer">60043464</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">user_edit.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID000029">
+				<value name="title" type="string">page_attach.png</value>
+				<value name="id" type="Integer">60043608</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">page_attach.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+			<path name="ID00002a">
+				<value name="title" type="string">database_gear.png</value>
+				<value name="id" type="Integer">14952304</value>
+				<value name="type" type="string">image-document</value>
+				<value name="filename" type="string">database_gear.png</value>
+				<value name="icon-name" type="string">image</value>
+				<value name="is-transient" type="Integer">0</value>
+				<value name="owns-file" type="Integer">1</value>
+				<value name="title-mode" type="Integer">0</value>
+				<value name="parent" type="Integer">36891176</value>
+				<value name="locked" type="Integer">0</value>
+				<value name="created" type="string">17/6/2006</value>
+				<value name="zoom-level" type="Integer">100</value>
+			</path>
+		</path>
+	</path>
+</path>
