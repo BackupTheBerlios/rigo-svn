@@ -79,9 +79,9 @@ $(OUTPUTPATH)\$(PROGRAM):	$(OBJECTS)
 $(OBJECTPATH)\$(RCFILEOBJ):	$(RCFILESRC)
 	$(RESCOMP) /fo$@ $(CPPFLAGS) $(RESPATH) $**
 
-$(OBJECTPATH)\rigo.obj:	rigo.cpp rigo.h
+$(OBJECTPATH)\rigo.obj:	rigo.cpp rigo.h mainFrame.h
 	$(CXX) /c /nologo /TP /Fo$@ $(CPPFLAGS) $(DEBUGFLAGS) $(OPTFLAGS) $(WARNINGFLAGS) $(CPPINC) rigo.cpp
 
-$(OBJECTPATH)\mainFrame.obj:	
+$(OBJECTPATH)\mainFrame.obj:	mainFrame.cpp mainFrame.h
 	$(CXX) /c /nologo /TP /Fo$@ $(CPPFLAGS) $(DEBUGFLAGS) $(OPTFLAGS) $(WARNINGFLAGS) $(CPPINC) mainFrame.cpp
 

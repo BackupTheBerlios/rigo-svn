@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxApp" name="" subclass="RigoApp">
+    </object>
+    <object class="wxFrame" name="Rigo" subclass="rigoMainFrame">
+        <style>wxCAPTION|wxRESIZE_BORDER|wxSYSTEM_MENU|wxMAXIMIZE|wxMINIMIZE_BOX|wxMAXIMIZE_BOX|wxCLOSE_BOX</style>
+        <size>800,600</size>
+        <title>.::R.I.G.O::.</title>
+        <object class="wxMenuBar" name="ID_MENUBAR">
+            <object class="wxMenu">
+                <label>File</label>
+                <object class="wxMenuItem" name="New">
+                    <label>New</label>
+                    <bitmap>page_attach.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="Save">
+                    <label>Save</label>
+                    <bitmap>disk.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="Quit">
+                    <label>Quit</label>
+                    <bitmap>door_in.png</bitmap>
+                </object>
+            </object>
+            <object class="wxMenu">
+                <label>&amp;Edit</label>
+                <object class="wxMenuItem" name="Cut">
+                    <label>Cut</label>
+                    <bitmap>cut_red.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="Copy">
+                    <label>Copy</label>
+                    <bitmap>page_refresh.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="Profile">
+                    <label>Profile</label>
+                    <bitmap>user_edit.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="Export">
+                    <label>Export</label>
+                    <bitmap>wrench_orange.png</bitmap>
+                </object>
+            </object>
+            <object class="wxMenu">
+                <label>Tools</label>
+                <object class="wxMenuItem" name="NewSource">
+                    <label>New Source</label>
+                    <bitmap>book_edit.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="NewQuote">
+                    <label>Add  Quotation</label>
+                    <bitmap>comment_add.png</bitmap>
+                </object>
+                <object class="wxMenuItem" name="NewAnnotation">
+                    <label>Add Annotation</label>
+                    <bitmap>email_add.png</bitmap>
+                </object>
+            </object>
+        </object>
+        <object class="wxToolBar" name="Rigo_Toolbar">
+            <style>wxTB_FLAT|wxTB_HORIZONTAL</style>
+            <margins>5,1</margins>
+            <bitmapsize>16,16</bitmapsize>
+            <object class="tool" name="Open">
+                <bitmap>folder_page_white.png</bitmap>
+                <tooltip>Open</tooltip>
+            </object>
+            <object class="tool" name="Export">
+                <bitmap>wrench_orange.png</bitmap>
+                <tooltip>Export</tooltip>
+            </object>
+            <object class="tool" name="Print">
+                <bitmap>printer.png</bitmap>
+                <tooltip>Print</tooltip>
+            </object>
+            <object class="tool" name="Save">
+                <bitmap>disk.png</bitmap>
+                <tooltip>Save</tooltip>
+            </object>
+            <object class="separator">
+            </object>
+            <object class="tool" name="Writebiblo">
+                <bitmap>page_edit.png</bitmap>
+                <tooltip>Biblography</tooltip>
+            </object>
+            <object class="wxComboBox" name="ID_COMBOBOX">
+                <style>wxCB_READONLY</style>
+                <content>
+                    <item>Source2; Source 3</item>
+                </content>
+            </object>
+        </object>
+        <object class="wxPanel" name="ID_PANEL">
+            <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+            <object class="wxGridSizer">
+                <cols>1</cols>
+                <rows>1</rows>
+                <vgap>0</vgap>
+                <hgap>0</hgap>
+                <object class="sizeritem">
+                    <flag>wxGROW|wxGROW|wxALL</flag>
+                    <border>0</border>
+                    <object class="wxNotebook" name="ID_NOTEBOOK">
+                        <size>100,100</size>
+                        <style>wxNB_TOP</style>
+                    </object>
+                </object>
+            </object>
+        </object>
+        <object class="wxStatusBar" name="ID_STATUSBAR">
+            <style>wxST_SIZEGRIP|wxNO_BORDER</style>
+            <fields>2</fields>
+            <widths></widths>
+        </object>
+    </object>
+    <object class="wxDialog" name="NewSource" subclass="MyDialog">
+        <style>wxCAPTION|wxRESIZE_BORDER|wxSYSTEM_MENU|wxCLOSE_BOX</style>
+        <exstyle>wxWS_EX_BLOCK_EVENTS</exstyle>
+        <size>400,300</size>
+        <title>Dialog</title>
+        <centered>1</centered>
+        <object class="wxGridSizer">
+            <cols>2</cols>
+            <rows>4</rows>
+            <vgap>0</vgap>
+            <hgap>0</hgap>
+            <object class="sizeritem">
+                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="Title">
+                    <label>Title/Name:</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxTextCtrl" name="Title">
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="Author">
+                    <label>Author:</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxTextCtrl" name="Author">
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="Publisher">
+                    <label>Publisher:</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxTextCtrl" name="Publisher">
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL|wxALL|wxADJUST_MINSIZE</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="PubPlace">
+                    <label>Publishing Place:</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxTextCtrl" name="PubPlace">
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

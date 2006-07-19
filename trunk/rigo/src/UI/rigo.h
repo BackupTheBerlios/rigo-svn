@@ -59,9 +59,14 @@ public:
     virtual int OnExit();
 
 ////@begin RigoApp event handler declarations
+
+    /// wxEVT_IDLE event handler for ID_UNIDENTIFIED
+    void OnIdle( wxIdleEvent& event );
+
 ////@end RigoApp event handler declarations
 
 ////@begin RigoApp member function declarations
+
 ////@end RigoApp member function declarations
 
 ////@begin RigoApp member variables

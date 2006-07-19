@@ -30,7 +30,6 @@
 #include "rigo.h"
 
 ////@begin XPM images
-
 ////@end XPM images
 
 /*!
@@ -54,6 +53,8 @@ IMPLEMENT_CLASS( RigoApp, wxApp )
 BEGIN_EVENT_TABLE( RigoApp, wxApp )
 
 ////@begin RigoApp event table entries
+    EVT_IDLE( RigoApp::OnIdle )
+
 ////@end RigoApp event table entries
 
 END_EVENT_TABLE()
@@ -106,4 +107,17 @@ int RigoApp::OnExit()
     return wxApp::OnExit();
 ////@end RigoApp cleanup
 }
+
+/*!
+ * wxEVT_IDLE event handler
+ */
+
+void RigoApp::OnIdle( wxIdleEvent& event )
+{
+////@begin wxEVT_IDLE event handler in RigoApp.
+    // Before editing this code, remove the block markers.
+    event.Skip();
+////@end wxEVT_IDLE event handler in RigoApp. 
+}
+
 
