@@ -108,7 +108,7 @@ bool rigoMainFrame::Create( wxWindow* parent, wxWindowID id, const wxString& cap
     wxFrame::Create( parent, id, caption, pos, size, style );
 
     CreateControls();
-    SetIcon(GetIconResource(wxT("database_gear.png")));
+    SetIcon(GetIconResource(wxT("Art\\database_gear.png")));
     Centre();
 ////@end rigoMainFrame creation
     return TRUE;
@@ -129,19 +129,19 @@ void rigoMainFrame::CreateControls()
     wxMenu* itemMenu3 = new wxMenu;
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu3, New, _("New"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("page_attach.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\page_attach.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu3->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu3, Save, _("Save"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("disk.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\disk.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu3->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu3, Quit, _("Quit"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("door_in.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\door_in.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu3->Append(menuItem);
     }
@@ -149,25 +149,25 @@ void rigoMainFrame::CreateControls()
     wxMenu* itemMenu7 = new wxMenu;
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu7, Cut, _("Cut"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("cut_red.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\cut_red.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu7->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu7, Copy, _("Copy"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("page_refresh.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\page_refresh.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu7->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu7, Profile, _("Profile"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("user_edit.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\user_edit.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu7->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu7, Export, _("Export"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("wrench_orange.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\wrench_orange.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu7->Append(menuItem);
     }
@@ -175,19 +175,19 @@ void rigoMainFrame::CreateControls()
     wxMenu* itemMenu12 = new wxMenu;
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu12, NewSource, _("New Source"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("book_edit.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\book_edit.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu12->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu12, NewQuote, _("Add  Quotation"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("comment_add.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\comment_add.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu12->Append(menuItem);
     }
     {
         wxMenuItem* menuItem = new wxMenuItem(itemMenu12, NewAnnotation, _("Add Annotation"), _T(""), wxITEM_NORMAL);
-        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("email_add.png")));
+        wxBitmap bitmap(itemFrame1->GetBitmapResource(wxT("Art\\email_add.png")));
         menuItem->SetBitmap(bitmap);
         itemMenu12->Append(menuItem);
     }
@@ -197,16 +197,16 @@ void rigoMainFrame::CreateControls()
     wxToolBar* itemToolBar16 = CreateToolBar( wxTB_FLAT|wxTB_HORIZONTAL, Rigo_Toolbar );
     itemToolBar16->SetMargins(5, 1);
     itemToolBar16->SetToolBitmapSize(wxSize(16, 16));
-    wxBitmap itemtool17Bitmap(itemFrame1->GetBitmapResource(wxT("folder_page_white.png")));
+    wxBitmap itemtool17Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\folder_page_white.png")));
     itemToolBar16->AddTool(Open, _T(""), itemtool17Bitmap, _("Open"), wxITEM_NORMAL);
-    wxBitmap itemtool18Bitmap(itemFrame1->GetBitmapResource(wxT("wrench_orange.png")));
+    wxBitmap itemtool18Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\wrench_orange.png")));
     itemToolBar16->AddTool(Export, _T(""), itemtool18Bitmap, _("Export"), wxITEM_NORMAL);
-    wxBitmap itemtool19Bitmap(itemFrame1->GetBitmapResource(wxT("printer.png")));
+    wxBitmap itemtool19Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\printer.png")));
     itemToolBar16->AddTool(Print, _T(""), itemtool19Bitmap, _("Print"), wxITEM_NORMAL);
-    wxBitmap itemtool20Bitmap(itemFrame1->GetBitmapResource(wxT("disk.png")));
+    wxBitmap itemtool20Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\disk.png")));
     itemToolBar16->AddTool(Save, _T(""), itemtool20Bitmap, _("Save"), wxITEM_NORMAL);
     itemToolBar16->AddSeparator();
-    wxBitmap itemtool22Bitmap(itemFrame1->GetBitmapResource(wxT("page_edit.png")));
+    wxBitmap itemtool22Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\page_edit.png")));
     itemToolBar16->AddTool(Writebiblo, _T(""), itemtool22Bitmap, _("Biblography"), wxITEM_NORMAL);
     wxString itemComboBox23Strings[] = {
         _("Source2; Source 3")
@@ -263,69 +263,69 @@ wxBitmap rigoMainFrame::GetBitmapResource( const wxString& name )
 {
     // Bitmap retrieval
 ////@begin rigoMainFrame bitmap retrieval
-    if (name == wxT("page_attach.png"))
+	if (name == wxT("Art\\page_attach.png"))
     {
-        wxBitmap bitmap(_T("page_attach.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\page_attach.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("disk.png"))
+    else if (name == wxT("Art\\disk.png"))
     {
-        wxBitmap bitmap(_T("disk.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\disk.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("door_in.png"))
+    else if (name == wxT("Art\\door_in.png"))
     {
-        wxBitmap bitmap(_T("door_in.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\door_in.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("cut_red.png"))
+    else if (name == wxT("Art\\cut_red.png"))
     {
-        wxBitmap bitmap(_T("cut_red.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\cut_red.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("page_refresh.png"))
+    else if (name == wxT("Art\\page_refresh.png"))
     {
-        wxBitmap bitmap(_T("page_refresh.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\page_refresh.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("user_edit.png"))
+    else if (name == wxT("Art\\user_edit.png"))
     {
-        wxBitmap bitmap(_T("user_edit.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\user_edit.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("wrench_orange.png"))
+    else if (name == wxT("Art\\wrench_orange.png"))
     {
-        wxBitmap bitmap(_T("wrench_orange.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\wrench_orange.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("book_edit.png"))
+    else if (name == wxT("Art\\book_edit.png"))
     {
-        wxBitmap bitmap(_T("book_edit.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\book_edit.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("comment_add.png"))
+    else if (name == wxT("Art\\comment_add.png"))
     {
-        wxBitmap bitmap(_T("comment_add.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\comment_add.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("email_add.png"))
+    else if (name == wxT("Art\\email_add.png"))
     {
-        wxBitmap bitmap(_T("email_add.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\email_add.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("folder_page_white.png"))
+    else if (name == wxT("Art\\folder_page_white.png"))
     {
-        wxBitmap bitmap(_T("folder_page_white.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\folder_page_white.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("printer.png"))
+    else if (name == wxT("Art\\printer.png"))
     {
-        wxBitmap bitmap(_T("printer.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\printer.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
-    else if (name == wxT("page_edit.png"))
+    else if (name == wxT("Art\\page_edit.png"))
     {
-        wxBitmap bitmap(_T("page_edit.png"), wxBITMAP_TYPE_PNG);
+        wxBitmap bitmap(_T("Art\\page_edit.png"), wxBITMAP_TYPE_PNG);
         return bitmap;
     }
     return wxNullBitmap;
@@ -340,9 +340,9 @@ wxIcon rigoMainFrame::GetIconResource( const wxString& name )
 {
     // Icon retrieval
 ////@begin rigoMainFrame icon retrieval
-    if (name == wxT("database_gear.png"))
+    if (name == wxT("Art\\database_gear.png"))
     {
-        wxIcon icon(_T("database_gear.png"), wxBITMAP_TYPE_PNG);
+        wxIcon icon(_T("Art\\database_gear.png"), wxBITMAP_TYPE_PNG);
         return icon;
     }
     return wxNullIcon;
