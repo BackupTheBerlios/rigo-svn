@@ -37,6 +37,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				Optimization="0"
 				AdditionalIncludeDirectories="&quot;D:\wxWidgets-2.6.3\lib\vc_lib\mswd&quot;;&quot;D:\wxWidgets-2.6.3\include&quot;"
 				PreprocessorDefinitions="WIN32;__WXMSW__;_WINDOWS;_DEBUG;__WXDEBUG__"
 				RuntimeLibrary="3"
@@ -81,6 +82,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="mkdir .\Debug\Art &amp; copy ..\UI\*.png .\Debug\Art"
 			/>
 		</Configuration>
 		<Configuration
