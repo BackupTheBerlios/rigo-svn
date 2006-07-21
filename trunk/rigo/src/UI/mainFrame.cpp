@@ -380,7 +380,7 @@ void rigoMainFrame::OnQuitClick( wxCommandEvent& event )
 {
 ////@begin wxEVT_COMMAND_MENU_SELECTED event handler for Quit in rigoMainFrame.
     // Before editing this code, remove the block markers.
-    event.Skip();
+	event.Skip();
 ////@end wxEVT_COMMAND_MENU_SELECTED event handler for Quit in rigoMainFrame. 
 }
 
@@ -524,6 +524,7 @@ void rigoMainFrame::OnCloseWindow( wxCloseEvent& event )
 {
 ////@begin wxEVT_CLOSE_WINDOW event handler for Rigo in rigoMainFrame.
     // Before editing this code, remove the block markers.
+
     event.Skip();
 ////@end wxEVT_CLOSE_WINDOW event handler for Rigo in rigoMainFrame. 
 }
