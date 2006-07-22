@@ -208,11 +208,20 @@ void rigoMainFrame::CreateControls()
     itemToolBar16->AddSeparator();
     wxBitmap itemtool22Bitmap(itemFrame1->GetBitmapResource(wxT("Art\\page_edit.png")));
     itemToolBar16->AddTool(Writebiblo, _T(""), itemtool22Bitmap, _("Biblography"), wxITEM_NORMAL);
-    wxString itemComboBox23Strings[] = {
-        _("Source2; Source 3")
-    };
-    wxComboBox* itemComboBox23 = new wxComboBox( itemToolBar16, ID_COMBOBOX, _("Source1"), wxDefaultPosition, wxDefaultSize, 1, itemComboBox23Strings, wxCB_READONLY );
-    itemComboBox23->SetStringSelection(_("Source1"));
+	
+	/*wxString itemComboBox23Strings[] = {
+        "Source2", "Source 3"
+    };*/
+	
+	sourceList.Add(wxT("No Sources"));
+
+	wxComboBox* itemComboBox23 = new wxComboBox( itemToolBar16, ID_COMBOBOX, wxT("No Sources"), wxDefaultPosition, wxDefaultSize, sourceList, wxCB_DROPDOWN);
+
+
+
+    //wxComboBox* itemComboBox23 = new wxComboBox( itemToolBar16, ID_COMBOBOX, "Source1", wxDefaultPosition, wxDefaultSize, 2, itemComboBox23Strings, wxCB_DROPDOWN );
+    //itemComboBox23->SetStringSelection("Source1");
+	
     itemToolBar16->AddControl(itemComboBox23);
     itemToolBar16->Realize();
     itemFrame1->SetToolBar(itemToolBar16);
@@ -380,7 +389,7 @@ void rigoMainFrame::OnQuitClick( wxCommandEvent& event )
 {
 ////@begin wxEVT_COMMAND_MENU_SELECTED event handler for Quit in rigoMainFrame.
     // Before editing this code, remove the block markers.
-	event.Skip();
+	Close(true);
 ////@end wxEVT_COMMAND_MENU_SELECTED event handler for Quit in rigoMainFrame. 
 }
 
@@ -438,9 +447,7 @@ void rigoMainFrame::OnExportClick( wxCommandEvent& event )
 
 void rigoMainFrame::OnNewsourceClick( wxCommandEvent& event )
 {
-////@begin wxEVT_COMMAND_MENU_SELECTED event handler for NewSource in rigoMainFrame.
-    // Before editing this code, remove the block markers.
-////@end wxEVT_COMMAND_MENU_SELECTED event handler for NewSource in rigoMainFrame. 
+	sourceList.Add(wxT("My New Source"));
 }
 
 /*!

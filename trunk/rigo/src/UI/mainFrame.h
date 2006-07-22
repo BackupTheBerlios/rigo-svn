@@ -27,6 +27,7 @@
 #include "wx/toolbar.h"
 #include "wx/notebook.h"
 #include "wx/statusbr.h"
+#include "wx/combobox.h"
 ////@end includes
 
 /*!
@@ -88,11 +89,23 @@ class rigoMainFrame: public wxFrame
     DECLARE_EVENT_TABLE()
 
 public:
+	/// Class Data
+	wxArrayString sourceList;
     /// Constructors
     rigoMainFrame( );
-    rigoMainFrame( wxWindow* parent, wxWindowID id = SYMBOL_RIGOMAINFRAME_IDNAME, const wxString& caption = SYMBOL_RIGOMAINFRAME_TITLE, const wxPoint& pos = SYMBOL_RIGOMAINFRAME_POSITION, const wxSize& size = SYMBOL_RIGOMAINFRAME_SIZE, long style = SYMBOL_RIGOMAINFRAME_STYLE );
+    rigoMainFrame(	wxWindow* parent, 
+					wxWindowID id = SYMBOL_RIGOMAINFRAME_IDNAME, 
+					const wxString& caption = SYMBOL_RIGOMAINFRAME_TITLE, 
+					const wxPoint& pos = SYMBOL_RIGOMAINFRAME_POSITION, 
+					const wxSize& size = SYMBOL_RIGOMAINFRAME_SIZE, 
+					long style = SYMBOL_RIGOMAINFRAME_STYLE );
 
-    bool Create( wxWindow* parent, wxWindowID id = SYMBOL_RIGOMAINFRAME_IDNAME, const wxString& caption = SYMBOL_RIGOMAINFRAME_TITLE, const wxPoint& pos = SYMBOL_RIGOMAINFRAME_POSITION, const wxSize& size = SYMBOL_RIGOMAINFRAME_SIZE, long style = SYMBOL_RIGOMAINFRAME_STYLE );
+    bool Create(	wxWindow* parent, 
+					wxWindowID id = SYMBOL_RIGOMAINFRAME_IDNAME, 
+					const wxString& caption = SYMBOL_RIGOMAINFRAME_TITLE, 
+					const wxPoint& pos = SYMBOL_RIGOMAINFRAME_POSITION, 
+					const wxSize& size = SYMBOL_RIGOMAINFRAME_SIZE, 
+					long style = SYMBOL_RIGOMAINFRAME_STYLE );
 
     /// Creates the controls and sizers
     void CreateControls();
