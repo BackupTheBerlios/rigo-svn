@@ -66,6 +66,7 @@
 #define ID_PANEL 10012
 #define ID_NOTEBOOK 10010
 #define ID_STATUSBAR 10013
+#define wxUSE_GUI 1
 ////@end control identifiers
 
 /*!
