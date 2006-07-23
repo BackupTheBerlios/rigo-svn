@@ -38,9 +38,12 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;d:\wxWidgets-2.6.3\include\wx\&quot;;&quot;D:\wxWidgets-2.6.3\lib\vc_lib\mswd\&quot;;&quot;D:\wxWidgets-2.6.3\include\&quot;"
-				PreprocessorDefinitions="WIN32;__WXMSW__;_WINDOWS;_DEBUG;__WXDEBUG__"
+				AdditionalIncludeDirectories="&quot;D:\wxWidgets-2.6.3\include&quot;;&quot;D:\wxWidgets-2.6.3\include\wx&quot;;&quot;D:\wxWidgets-2.6.3\lib\vc_lib\mswd&quot;"
+				PreprocessorDefinitions="WIN32;_DEBUG;__WXMSW__;__WXDEBUG__;_WINDOWS;NOPCH;wxUSE_GUI=1;_VC80_UPGRADE=0x0600"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
+				DebugInformationFormat="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -53,10 +56,12 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="wxmsw26d_core.lib wxbase26d.lib wxbase26d_net.lib wxbase26d_xml.lib wxjpegd.lib wxmsw26d_xrc.lib wxpngd.lib wxzlibd.lib winmm.lib comctl32.lib rpcrt4.lib"
+				AdditionalDependencies="wxmsw26d_core.lib wxbase26d.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib winmm.lib comctl32.lib rpcrt4.lib wsock32.lib odbc32.lib"
+				LinkIncremental="2"
 				AdditionalLibraryDirectories="&quot;D:\wxWidgets-2.6.3\lib\vc_lib&quot;"
 				GenerateDebugInformation="true"
-				OptimizeForWindows98="1"
+				SubSystem="2"
+				OptimizeForWindows98="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -87,6 +92,7 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			>
