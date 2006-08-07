@@ -1,6 +1,8 @@
-#Sat Aug 05 12:40:12 MST 2006
+#Sun Aug 06 20:51:27 MST 2006
 cdt.managedbuild.config.gnu.cygwin.exe.debug.886363981/internalBuilder/enabled=false
 cdt.managedbuild.config.gnu.cygwin.exe.debug.886363981/internalBuilder/ignoreErr=true
 cdt.managedbuild.config.gnu.cygwin.exe.release.486256087/internalBuilder/enabled=false
 cdt.managedbuild.config.gnu.cygwin.exe.release.486256087/internalBuilder/ignoreErr=true
 eclipse.preferences.version=1
+environment/project=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment/>\r\n
+environment/project/cdt.managedbuild.config.gnu.cygwin.exe.debug.886363981=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<environment/>\r\n
